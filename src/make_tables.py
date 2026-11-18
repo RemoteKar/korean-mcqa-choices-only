@@ -138,7 +138,7 @@ def table_rules(tables, out):
     a3 = read(f"{tables}/a3.csv")
     benches = ["KMMLU", "CLIcK exam", "CLIcK textbook", "Global-MMLU ko", "Global-MMLU en"]
     lines = [r"\begin{tabular}{@{}lrrrrrr@{}}", r"\toprule",
-             r" & \multicolumn{3}{c}{Rule accuracy} & \multicolumn{3}{c}{Agreement with \copt{} (Qwen / EXAONE)} \\",
+             r" & \multicolumn{3}{c}{Rule accuracy} & \multicolumn{3}{c}{Agreement (Q / E)} \\",
              r"\cmidrule(lr){2-4}\cmidrule(l){5-7}",
              r"Benchmark & Longest & Digits & Odd & Longest & Digits & Odd \\", r"\midrule"]
     for b in benches:
