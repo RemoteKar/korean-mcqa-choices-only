@@ -51,7 +51,9 @@ def write(out, name, lines):
 def table_a1(tables, out):
     a1, a3 = read(f"{tables}/a1.csv"), read(f"{tables}/a3.csv")
     lines = [r"\begin{tabular}{@{}lrrrrlrrrrr@{}}", r"\toprule",
-             r"Benchmark & $n$ & Chance & Majority & Longest & Model & \full{} & \copt{} & $s_{\textsc{co}}$ & \iopt{} & \copt{}, fixed order \\",
+             r" & & \multicolumn{3}{c}{Baselines} & & \multicolumn{5}{c}{Model accuracy and solvable fraction} \\",
+             r"\cmidrule(lr){3-5}\cmidrule(l){7-11}",
+             r"Benchmark & $n$ & Chance & Maj. & Long. & Model & \full{} & \textsc{CO} & $s_{\textsc{co}}$ & \textsc{OA} & \textsc{CO} fixed \\",
              r"\midrule"]
     for bench in ["KMMLU", "CLIcK (all)", "CLIcK exam", "CLIcK textbook"]:
         for j, (key, label) in enumerate(MODELS):
@@ -61,7 +63,7 @@ def table_a1(tables, out):
             left = (" & ".join([mr(bench), mr(f"{int(r['n']):,}"), mr(f"{100 * float(r['chance']):.1f}"),
                                 mr(f"{100 * float(r['majority']):.1f}"), mr(point(rule['rule_longest']))])
                     if j == 0 else " & & & & ")
-            lines.append(f"{left} & {label} & {point(r['full'])} & {ci(r['co'])} & {ci(r['s_co'])} & "
+            lines.append(f"{left} & {label} & {point(r['full'])} & {point(r['co'])} & {ci(r['s_co'])} & "
                          f"{point(r['oa'])} & {point(r['co_unrot'])} \\\\")
         lines.append(r"\midrule" if bench != "CLIcK textbook" else r"\bottomrule")
     lines.append(r"\end{tabular}")
@@ -69,33 +71,32 @@ def table_a1(tables, out):
 
 
 def table_a2(tables, out):
+    """Analysis II: both models side by side, with the differences below."""
     a2 = read(f"{tables}/a2.csv")
-    names = [("native (KMMLU)", "Native (KMMLU)"), ("translated (Global-MMLU ko)", "Translated (GMMLU-ko)"),
-             ("English source (Global-MMLU en)", "English (GMMLU-en)")]
-    lines = [r"\begin{tabular}{@{}llrrrr@{}}", r"\toprule",
-             r"Model & Source & \full{} & \copt{} & $s_{\textsc{co}}$ & Share \\", r"\midrule"]
-    for key, label in MODELS:
-        for j, (src, name) in enumerate(names):
-            r = pick(a2, model=key, source=src)
-            lines.append(f"{label if j == 0 else ''} & {name} & {point(r['full'])} & {point(r['co'])} & "
-                         f"{ci(r['s_co'])} & {point(r['share'])} \\\\")
-        lines.append(r"\midrule" if key == "qwen" else r"\bottomrule")
-    lines.append(r"\end{tabular}")
-    write(out, "a2", lines)
-
-
-def table_deltas(tables, out):
     d, gap = read(f"{tables}/a2_deltas.csv"), read(f"{tables}/polarity_gap.csv")
-    rows = [(r"$\Delta_{\mathrm{orig}} = s^{\mathrm{tr}}_{\textsc{co}} - s^{\mathrm{nat}}_{\textsc{co}}$", "d_orig", d),
-            (r"$\Delta_{\mathrm{share}}$ (shortcut share)", "d_share", d),
-            (r"$\Delta_{\mathrm{tr}} = s^{\mathrm{ko}}_{\textsc{co}} - s^{\mathrm{en}}_{\textsc{co}}$ (paired)", "d_tr", d),
-            (r"$\Delta_{\mathrm{orig}}$, positive questions only$^{\dagger}$", "d_orig_positive", gap)]
-    lines = [r"\begin{tabular}{@{}lrr@{}}", r"\toprule", r"Difference & Qwen & EXAONE \\", r"\midrule"]
+    names = [("native (KMMLU)", "Native (KMMLU)"), ("translated (Global-MMLU ko)", "Translated (GMMLU-ko)"),
+             ("English source (Global-MMLU en)", "English source (GMMLU-en)")]
+    lines = [r"\begin{tabular}{@{}lrrrrrrrr@{}}", r"\toprule",
+             r" & \multicolumn{4}{c}{Qwen} & \multicolumn{4}{c}{EXAONE} \\",
+             r"\cmidrule(lr){2-5}\cmidrule(l){6-9}",
+             r"Source & \full{} & \textsc{CO} & $s_{\textsc{co}}$ & Share & \full{} & \textsc{CO} & $s_{\textsc{co}}$ & Share \\",
+             r"\midrule"]
+    for src, name in names:
+        cells = []
+        for key, _ in MODELS:
+            r = pick(a2, model=key, source=src)
+            cells += [point(r["full"]), point(r["co"]), ci(r["s_co"]), point(r["share"])]
+        lines.append(f"{name} & " + " & ".join(cells) + r" \\")
+    lines.append(r"\midrule")
+    rows = [(r"$\Delta_{\mathrm{orig}}$", "d_orig", d),
+            (r"$\Delta_{\mathrm{share}}$", "d_share", d),
+            (r"$\Delta_{\mathrm{tr}}$ (paired)", "d_tr", d),
+            (r"$\Delta_{\mathrm{orig}}$, positive only$^{\dagger}$", "d_orig_positive", gap)]
     for label, col, src in rows:
         vals = [ci(pick(src, model=key)[col]) for key, _ in MODELS]
-        lines.append(f"{label} & {vals[0]} & {vals[1]} \\\\")
+        lines.append(f"{label} & \\multicolumn{{4}}{{c}}{{{vals[0]}}} & \\multicolumn{{4}}{{c}}{{{vals[1]}}} \\\\")
     lines += [r"\bottomrule", r"\end{tabular}"]
-    write(out, "deltas", lines)
+    write(out, "a2", lines)
 
 
 def table_polarity(tables, out):
@@ -218,7 +219,7 @@ def main():
     args = parser.parse_args()
     os.makedirs(args.out, exist_ok=True)
     tables = os.path.join(args.results, "tables")
-    for fn in (table_a1, table_a2, table_deltas, table_polarity, table_mink, table_rules, table_domains):
+    for fn in (table_a1, table_a2, table_polarity, table_mink, table_rules, table_domains):
         fn(tables, args.out)
     table_protocols(args.results, args.out)
     table_examples(args.results, args.out)

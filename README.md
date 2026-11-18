@@ -43,10 +43,9 @@ want that table.
 | Paper | File | Made by |
 |---|---|---|
 | Table 1 (Analysis I) | `results/latex/a1.tex` | `results/tables/a1.csv`, `a3.csv` |
-| Table 2 (Analysis II) | `results/latex/a2.tex` | `results/tables/a2.csv` |
-| Table 3 (differences) | `results/latex/deltas.tex` | `results/tables/a2_deltas.csv`, `polarity_gap.csv` |
+| Table 2 (Analysis II and differences) | `results/latex/a2.tex` | `results/tables/a2.csv`, `a2_deltas.csv`, `polarity_gap.csv` |
 | Figure 1 (polarity) | `results/latex/polarity.pdf` | `results/tables/polarity.csv` |
-| Table 4 (examples) | written by hand from `results/<model>/examples.json` | |
+| Table 3 (examples) | written by hand from `results/<model>/examples.json` | |
 | Appendix tables | `domains.tex`, `protocols.tex`, `polarity.tex`, `mink.tex`, `rules.tex`, `examples.tex` | |
 
 ### Scoring protocol variants (appendix)

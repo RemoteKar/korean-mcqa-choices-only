@@ -1,17 +1,19 @@
 \begin{tabular}{@{}lrrrrlrrrrr@{}}
 \toprule
-Benchmark & $n$ & Chance & Majority & Longest & Model & \full{} & \copt{} & $s_{\textsc{co}}$ & \iopt{} & \copt{}, fixed order \\
+ & & \multicolumn{3}{c}{Baselines} & & \multicolumn{5}{c}{Model accuracy and solvable fraction} \\
+\cmidrule(lr){3-5}\cmidrule(l){7-11}
+Benchmark & $n$ & Chance & Maj. & Long. & Model & \full{} & \textsc{CO} & $s_{\textsc{co}}$ & \textsc{OA} & \textsc{CO} fixed \\
 \midrule
-\multirow{2}{*}{KMMLU} & \multirow{2}{*}{1,800} & \multirow{2}{*}{25.0} & \multirow{2}{*}{29.6} & \multirow{2}{*}{27.5} & Qwen & 42.5 & 25.1 {\scriptsize[23.7, 26.4]} & 0.1 {\scriptsize[$-$1.7, 1.9]} & 25.0 & 26.5 \\
- & & & &  & EXAONE & 39.4 & 26.1 {\scriptsize[24.7, 27.4]} & 1.4 {\scriptsize[$-$0.4, 3.2]} & 26.1 & 28.1 \\
+\multirow{2}{*}{KMMLU} & \multirow{2}{*}{1,800} & \multirow{2}{*}{25.0} & \multirow{2}{*}{29.6} & \multirow{2}{*}{27.5} & Qwen & 42.5 & 25.1 & 0.1 {\scriptsize[$-$1.7, 1.9]} & 25.0 & 26.5 \\
+ & & & &  & EXAONE & 39.4 & 26.1 & 1.4 {\scriptsize[$-$0.4, 3.2]} & 26.1 & 28.1 \\
 \midrule
-\multirow{2}{*}{CLIcK (all)} & \multirow{2}{*}{1,995} & \multirow{2}{*}{24.4} & \multirow{2}{*}{30.0} & \multirow{2}{*}{31.6} & Qwen & 55.9 & 31.9 {\scriptsize[30.5, 33.4]} & 10.1 {\scriptsize[8.2, 12.0]} & 27.4 & 31.9 \\
- & & & &  & EXAONE & 55.2 & 30.8 {\scriptsize[29.6, 32.3]} & 8.6 {\scriptsize[6.8, 10.5]} & 31.0 & 29.3 \\
+\multirow{2}{*}{CLIcK (all)} & \multirow{2}{*}{1,995} & \multirow{2}{*}{24.4} & \multirow{2}{*}{30.0} & \multirow{2}{*}{31.6} & Qwen & 55.9 & 31.9 & 10.1 {\scriptsize[8.2, 12.0]} & 27.4 & 31.9 \\
+ & & & &  & EXAONE & 55.2 & 30.8 & 8.6 {\scriptsize[6.8, 10.5]} & 31.0 & 29.3 \\
 \midrule
-\multirow{2}{*}{CLIcK exam} & \multirow{2}{*}{1,245} & \multirow{2}{*}{24.0} & \multirow{2}{*}{25.3} & \multirow{2}{*}{27.0} & Qwen & 47.5 & 26.1 {\scriptsize[24.5, 27.8]} & 2.8 {\scriptsize[0.6, 5.1]} & 22.5 & 26.3 \\
- & & & &  & EXAONE & 44.1 & 25.5 {\scriptsize[24.0, 27.0]} & 2.0 {\scriptsize[0.0, 4.1]} & 25.4 & 26.4 \\
+\multirow{2}{*}{CLIcK exam} & \multirow{2}{*}{1,245} & \multirow{2}{*}{24.0} & \multirow{2}{*}{25.3} & \multirow{2}{*}{27.0} & Qwen & 47.5 & 26.1 & 2.8 {\scriptsize[0.6, 5.1]} & 22.5 & 26.3 \\
+ & & & &  & EXAONE & 44.1 & 25.5 & 2.0 {\scriptsize[0.0, 4.1]} & 25.4 & 26.4 \\
 \midrule
-\multirow{2}{*}{CLIcK textbook} & \multirow{2}{*}{750} & \multirow{2}{*}{25.0} & \multirow{2}{*}{45.1} & \multirow{2}{*}{39.3} & Qwen & 69.9 & 41.6 {\scriptsize[39.1, 44.1]} & 22.2 {\scriptsize[18.7, 25.6]} & 35.6 & 41.1 \\
- & & & &  & EXAONE & 73.7 & 39.7 {\scriptsize[37.3, 42.1]} & 19.6 {\scriptsize[16.5, 22.9]} & 40.4 & 34.0 \\
+\multirow{2}{*}{CLIcK textbook} & \multirow{2}{*}{750} & \multirow{2}{*}{25.0} & \multirow{2}{*}{45.1} & \multirow{2}{*}{39.3} & Qwen & 69.9 & 41.6 & 22.2 {\scriptsize[18.7, 25.6]} & 35.6 & 41.1 \\
+ & & & &  & EXAONE & 73.7 & 39.7 & 19.6 {\scriptsize[16.5, 22.9]} & 40.4 & 34.0 \\
 \bottomrule
 \end{tabular}
