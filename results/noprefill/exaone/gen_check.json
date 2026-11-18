@@ -1,0 +1,2816 @@
+{
+ "report": {
+  "model": "exaone",
+  "n": 200,
+  "full": {
+   "parsed": 0.99,
+   "agreement": 0.93
+  },
+  "choices_only": {
+   "parsed": 0.77,
+   "agreement": 0.5
+  }
+ },
+ "examples": [
+  {
+   "condition": "full",
+   "uid": "click/Kedu_16_23",
+   "output": "D",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Railway-and-Automotive-Engineering/31",
+   "output": "B",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "full",
+   "uid": "click/Kedu_tradition_21",
+   "output": "A",
+   "generated": 0,
+   "letter_prob": 0
+  },
+  {
+   "condition": "full",
+   "uid": "click/TK_2017_28",
+   "output": "B",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Taxation/38",
+   "output": "정답: C",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Chemical-Engineering/297",
+   "output": "정답은 **B** 입니다. \n\n**설명:**\n\n",
+   "generated": 1,
+   "letter_prob": 2
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Law/649",
+   "output": "A",
+   "generated": 0,
+   "letter_prob": 0
+  },
+  {
+   "condition": "full",
+   "uid": "click/PSE_history_13_14",
+   "output": "C",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "full",
+   "uid": "click/KHB_66_1",
+   "output": "C",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Refrigerating-Machinery/597",
+   "output": "C",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "full",
+   "uid": "click/TK_2022_10",
+   "output": "B",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "full",
+   "uid": "click/CSAT_korean_15_8",
+   "output": "E",
+   "generated": 4,
+   "letter_prob": 4
+  },
+  {
+   "condition": "full",
+   "uid": "click/Kedu_15_20",
+   "output": "C",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Materials-Engineering/765",
+   "output": "B",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "full",
+   "uid": "click/KIIP_geography_64",
+   "output": "A",
+   "generated": 0,
+   "letter_prob": 0
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Political-Science-and-Sociology/84",
+   "output": "정답: B",
+   "generated": 1,
+   "letter_prob": 0
+  },
+  {
+   "condition": "full",
+   "uid": "click/PSAT_19_21",
+   "output": "C",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "full",
+   "uid": "click/TK_2017_34",
+   "output": "D",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "full",
+   "uid": "click/TK_2019_13",
+   "output": "C",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Industrial-Engineer/466",
+   "output": "B",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "full",
+   "uid": "click/Kedu_history_31",
+   "output": "B",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Electronics-Engineering/144",
+   "output": "B",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Management/498",
+   "output": "A",
+   "generated": 0,
+   "letter_prob": 0
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Electronics-Engineering/931",
+   "output": "B",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "full",
+   "uid": "click/Kedu_tradition_12",
+   "output": "C",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Criminal-Law/112",
+   "output": "C",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "full",
+   "uid": "click/KIIP_politics_44",
+   "output": "B",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "full",
+   "uid": "click/PSE_korean_11",
+   "output": "D",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Korean-History/6",
+   "output": "C",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "full",
+   "uid": "click/TK_2019_20",
+   "output": "D",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "full",
+   "uid": "click/PSE_history_18_9",
+   "output": "B",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "full",
+   "uid": "click/KIIP_society_275",
+   "output": "A",
+   "generated": 0,
+   "letter_prob": 0
+  },
+  {
+   "condition": "full",
+   "uid": "click/CSAT_korean_16_11",
+   "output": "C",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "full",
+   "uid": "click/PSAT_23_2",
+   "output": "C",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "full",
+   "uid": "click/TK_2018_33",
+   "output": "C",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Energy-Management/93",
+   "output": "정답은 **B** 입니다. \n\n**설명:**\n\n",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Materials-Engineering/764",
+   "output": "B",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Ecology/461",
+   "output": "정답: C",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "full",
+   "uid": "click/KIIP_tradition_67",
+   "output": "B",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Computer-Science/300",
+   "output": "B",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "full",
+   "uid": "click/TK_2018_19",
+   "output": "A. 손을 뗀다",
+   "generated": 0,
+   "letter_prob": 0
+  },
+  {
+   "condition": "full",
+   "uid": "click/Kedu_16_48",
+   "output": "B",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "full",
+   "uid": "click/KIIP_society_188",
+   "output": "B",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Mechanical-Engineering/949",
+   "output": "정답은 **C** 입니다. \n\n* **래티스보**",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "full",
+   "uid": "click/KIIP_geography_45",
+   "output": "A",
+   "generated": 0,
+   "letter_prob": 0
+  },
+  {
+   "condition": "full",
+   "uid": "click/KIIP_law_23",
+   "output": "A",
+   "generated": 0,
+   "letter_prob": 0
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Ecology/250",
+   "output": "C",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Political-Science-and-Sociology/288",
+   "output": "D",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Telecommunications-and-Wireless-Technology/706",
+   "output": "B",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Math/259",
+   "output": "C",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "full",
+   "uid": "click/KIIP_politics_14",
+   "output": "C",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "full",
+   "uid": "click/KIIP_society_10",
+   "output": "B",
+   "generated": 1,
+   "letter_prob": 0
+  },
+  {
+   "condition": "full",
+   "uid": "click/TK_2019_33",
+   "output": "B",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Geomatics/203",
+   "output": "정답: A",
+   "generated": 0,
+   "letter_prob": 0
+  },
+  {
+   "condition": "full",
+   "uid": "click/PSE_history_22_14",
+   "output": "D",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "full",
+   "uid": "click/KIIP_geography_65",
+   "output": "A",
+   "generated": 0,
+   "letter_prob": 0
+  },
+  {
+   "condition": "full",
+   "uid": "click/KIIP_economy_14",
+   "output": "B",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "full",
+   "uid": "click/CSAT_korean_22_1",
+   "output": "B",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "full",
+   "uid": "click/PSE_history_15_17",
+   "output": "C",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Law/905",
+   "output": "C",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Civil-Engineering/299",
+   "output": "C",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "full",
+   "uid": "click/CSAT_korean_16_14",
+   "output": "A, B, C, E",
+   "generated": 0,
+   "letter_prob": 0
+  },
+  {
+   "condition": "full",
+   "uid": "click/TK_2022_11",
+   "output": "B",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "full",
+   "uid": "click/PSE_history_21_17",
+   "output": "B",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "full",
+   "uid": "click/TK_2019_45",
+   "output": "정답: B",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Agricultural-Sciences/467",
+   "output": "C",
+   "generated": 2,
+   "letter_prob": 3
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Criminal-Law/154",
+   "output": "B",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "full",
+   "uid": "click/KIIP_tradition_25",
+   "output": "C",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "full",
+   "uid": "click/Kedu_16_6#2",
+   "output": "C",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Real-Estate/93",
+   "output": "B",
+   "generated": 1,
+   "letter_prob": 2
+  },
+  {
+   "condition": "full",
+   "uid": "click/Kedu_Society_12",
+   "output": "D",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "full",
+   "uid": "click/Kedu_14_56",
+   "output": "C",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "full",
+   "uid": "click/CSAT_korean_16_3",
+   "output": "정답은 **D** 입니다. \n\n* **반대 1**",
+   "generated": 3,
+   "letter_prob": 4
+  },
+  {
+   "condition": "full",
+   "uid": "click/KIIP_society_123",
+   "output": "A",
+   "generated": 0,
+   "letter_prob": 0
+  },
+  {
+   "condition": "full",
+   "uid": "click/KIIP_politics_73",
+   "output": "D",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Accounting/48",
+   "output": "C",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "full",
+   "uid": "click/KIIP_politics_18",
+   "output": "D",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "full",
+   "uid": "click/KHB_66_32",
+   "output": "C",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "full",
+   "uid": "click/Kedu_15_12",
+   "output": "정답: C",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "full",
+   "uid": "click/CSAT_korean_22_10",
+   "output": "B",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Nondestructive-Testing/324",
+   "output": "C",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Interior-Architecture-and-Design/570",
+   "output": "B",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "full",
+   "uid": "click/KIIP_tradition_69",
+   "output": "B",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Mechanical-Engineering/44",
+   "output": "B",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "full",
+   "uid": "click/KIIP_society_269",
+   "output": "B",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "full",
+   "uid": "click/CSAT_korean_22_22",
+   "output": "C",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Civil-Engineering/690",
+   "output": "C",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Gas-Technology-and-Engineering/290",
+   "output": "C",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "full",
+   "uid": "click/TK_2022_5",
+   "output": "C",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "full",
+   "uid": "click/PSAT_17_4",
+   "output": "B",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Industrial-Engineer/178",
+   "output": "D",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Interior-Architecture-and-Design/183",
+   "output": "정답: C",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "full",
+   "uid": "click/CSAT_korean_12_11",
+   "output": "C",
+   "generated": 2,
+   "letter_prob": 1
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Electronics-Engineering/768",
+   "output": "B",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "full",
+   "uid": "click/CSAT_korean_11_12",
+   "output": "정답 선택지: **B**",
+   "generated": 1,
+   "letter_prob": 4
+  },
+  {
+   "condition": "full",
+   "uid": "click/PSE_history_20_13",
+   "output": "D",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "full",
+   "uid": "click/KIIP_economy_35",
+   "output": "A",
+   "generated": 0,
+   "letter_prob": 0
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Criminal-Law/101",
+   "output": "D",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Construction/704",
+   "output": "이 문제를 해결하기 위해서는 주응력과 전단응력 사이의",
+   "generated": null,
+   "letter_prob": 2
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Math/183",
+   "output": "A. [72.8, 73.2]",
+   "generated": 0,
+   "letter_prob": 0
+  },
+  {
+   "condition": "full",
+   "uid": "click/TK_2016_11",
+   "output": "A",
+   "generated": 0,
+   "letter_prob": 0
+  },
+  {
+   "condition": "full",
+   "uid": "click/Kedu_history_44",
+   "output": "B",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "full",
+   "uid": "click/KHB_66_15",
+   "output": "D",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Economics/14",
+   "output": "C",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Marketing/113",
+   "output": "D",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "full",
+   "uid": "click/PSE_history_22_8",
+   "output": "B",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Maritime-Engineering/360",
+   "output": "D",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "full",
+   "uid": "click/KIIP_society_281",
+   "output": "A",
+   "generated": 0,
+   "letter_prob": 0
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Education/83",
+   "output": "B",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "full",
+   "uid": "click/PSE_history_21_12",
+   "output": "B",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Nondestructive-Testing/181",
+   "output": "정답: C",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "full",
+   "uid": "click/Kedu_14_13",
+   "output": "B",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "full",
+   "uid": "click/TK_2022_26",
+   "output": "A",
+   "generated": 0,
+   "letter_prob": 0
+  },
+  {
+   "condition": "full",
+   "uid": "click/PSE_history_20_2",
+   "output": "C",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Geomatics/974",
+   "output": "정답은 **D** 입니다.",
+   "generated": 3,
+   "letter_prob": 2
+  },
+  {
+   "condition": "full",
+   "uid": "click/PSAT_23_7",
+   "output": "C",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "full",
+   "uid": "click/PSE_history_21_11",
+   "output": "C",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "full",
+   "uid": "click/PSAT_20_14",
+   "output": "B",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Maritime-Engineering/319",
+   "output": "D",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "full",
+   "uid": "click/KIIP_economy_23",
+   "output": "A",
+   "generated": 0,
+   "letter_prob": 0
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Criminal-Law/131",
+   "output": "C",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "full",
+   "uid": "click/PSAT_22_2",
+   "output": "C",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "full",
+   "uid": "click/PSE_korean_5",
+   "output": "C",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Railway-and-Automotive-Engineering/82",
+   "output": "C",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Math/14",
+   "output": "C",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "full",
+   "uid": "click/PSAT_18_13",
+   "output": "C",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Interior-Architecture-and-Design/652",
+   "output": "B",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Maritime-Engineering/293",
+   "output": "D",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Food-Processing/667",
+   "output": "B",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Gas-Technology-and-Engineering/217",
+   "output": "C",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "full",
+   "uid": "click/Kedu_14_42",
+   "output": "B",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Gas-Technology-and-Engineering/446",
+   "output": "B",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Biology/909",
+   "output": "D",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "full",
+   "uid": "click/KIIP_politics_21",
+   "output": "B",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "full",
+   "uid": "click/KIIP_society_76",
+   "output": "A",
+   "generated": 0,
+   "letter_prob": 0
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Law/237",
+   "output": "C",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "full",
+   "uid": "click/KIIP_geography_63",
+   "output": "C",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Computer-Science/384",
+   "output": "C",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Criminal-Law/6",
+   "output": "정답은 **B** 입니다. \n\n**해설:**\n",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "full",
+   "uid": "click/KIIP_society_167",
+   "output": "A",
+   "generated": 0,
+   "letter_prob": 0
+  },
+  {
+   "condition": "full",
+   "uid": "click/Kedu_tradition_20",
+   "output": "B",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Electrical-Engineering/272",
+   "output": "정답은 **B** 입니다. \n\n**설명:**\n\n",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "full",
+   "uid": "click/TK_2016_18",
+   "output": "B",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Energy-Management/469",
+   "output": "C",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "full",
+   "uid": "click/TK_2022_31",
+   "output": "D",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Biology/406",
+   "output": "B",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "full",
+   "uid": "click/Kedu_16_15",
+   "output": "C",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Construction/673",
+   "output": "정답을 직접적으로 제공하기 위해서는 실제 Dunham 분류 체계와 N치",
+   "generated": null,
+   "letter_prob": 3
+  },
+  {
+   "condition": "full",
+   "uid": "click/TK_2018_16",
+   "output": "C",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "full",
+   "uid": "click/KIIP_society_251",
+   "output": "C",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "full",
+   "uid": "click/TK_2022_29",
+   "output": "C",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "full",
+   "uid": "click/Kedu_15_18",
+   "output": "C",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "full",
+   "uid": "click/PSE_history_20_3",
+   "output": "C",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "full",
+   "uid": "click/KIIP_society_186",
+   "output": "A",
+   "generated": 0,
+   "letter_prob": 0
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Real-Estate/150",
+   "output": "C",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "full",
+   "uid": "click/Kedu_15_52",
+   "output": "B",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "full",
+   "uid": "click/PSE_history_16_12",
+   "output": "B",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Management/740",
+   "output": "C",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "full",
+   "uid": "click/PSE_history_16_1",
+   "output": "B, C",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "full",
+   "uid": "click/Kedu_14_1",
+   "output": "B",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Interior-Architecture-and-Design/512",
+   "output": "A",
+   "generated": 0,
+   "letter_prob": 0
+  },
+  {
+   "condition": "full",
+   "uid": "click/Kedu_16_44",
+   "output": "B",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Industrial-Engineer/938",
+   "output": "B",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "full",
+   "uid": "click/TK_2017_48",
+   "output": "D",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "full",
+   "uid": "click/KIIP_society_170",
+   "output": "A",
+   "generated": 0,
+   "letter_prob": 0
+  },
+  {
+   "condition": "full",
+   "uid": "click/PSAT_20_23",
+   "output": "B",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "full",
+   "uid": "click/Kedu_15_1",
+   "output": "B",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Social-Welfare/160",
+   "output": "정답은 **C** 입니다.\n\n**해설:**\n\n",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "full",
+   "uid": "click/PSAT_19_5",
+   "output": "B",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Management/358",
+   "output": "A, B, C, D 모두 정확한 설명을 포함하고 있지만",
+   "generated": 0,
+   "letter_prob": 0
+  },
+  {
+   "condition": "full",
+   "uid": "click/KIIP_economy_46",
+   "output": "B",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "full",
+   "uid": "click/KHB_66_28",
+   "output": "A",
+   "generated": 0,
+   "letter_prob": 0
+  },
+  {
+   "condition": "full",
+   "uid": "click/KIIP_society_91",
+   "output": "C",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "full",
+   "uid": "click/KIIP_society_13",
+   "output": "C",
+   "generated": 2,
+   "letter_prob": 0
+  },
+  {
+   "condition": "full",
+   "uid": "click/KIIP_society_255",
+   "output": "C",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "full",
+   "uid": "click/TK_2019_49",
+   "output": "B",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "full",
+   "uid": "click/CSAT_korean_17_5",
+   "output": "C",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Political-Science-and-Sociology/0",
+   "output": "D",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Construction/196",
+   "output": "C",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Mechanical-Engineering/158",
+   "output": "정답 선택지의 기호만을 제공하겠습니다:\n\nB",
+   "generated": 1,
+   "letter_prob": 2
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Economics/75",
+   "output": "B",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "full",
+   "uid": "click/KHB_66_3",
+   "output": "B",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "full",
+   "uid": "click/PSAT_20_12",
+   "output": "C",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "full",
+   "uid": "click/KIIP_popular_9",
+   "output": "A",
+   "generated": 0,
+   "letter_prob": 0
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Nondestructive-Testing/27",
+   "output": "D",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "full",
+   "uid": "click/Kedu_16_26",
+   "output": "C",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Gas-Technology-and-Engineering/745",
+   "output": "정답 선택지의 기호만 답하겠습니다:\n\nB. 9",
+   "generated": 1,
+   "letter_prob": 2
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Interior-Architecture-and-Design/474",
+   "output": "B",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Agricultural-Sciences/258",
+   "output": "A",
+   "generated": 0,
+   "letter_prob": 0
+  },
+  {
+   "condition": "full",
+   "uid": "click/KIIP_tradition_74",
+   "output": "B",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Machine-Design-and-Manufacturing/490",
+   "output": "정답은 **B** 입니다.",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Economics/8",
+   "output": "D",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "full",
+   "uid": "click/KIIP_society_276",
+   "output": "A",
+   "generated": 0,
+   "letter_prob": 0
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Industrial-Engineer/612",
+   "output": "B",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Public-Safety/337",
+   "output": "A",
+   "generated": 0,
+   "letter_prob": 0
+  },
+  {
+   "condition": "full",
+   "uid": "click/CSAT_korean_23_35",
+   "output": "C",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Fashion/982",
+   "output": "B",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Taxation/92",
+   "output": "C",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "full",
+   "uid": "click/Kedu_14_18",
+   "output": "A",
+   "generated": 0,
+   "letter_prob": 0
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Civil-Engineering/766",
+   "output": "C",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/Kedu_16_23",
+   "output": "정답일 가능성이 가장 높은 선택지는 **B** 입니다.\n\n",
+   "generated": 1,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Railway-and-Automotive-Engineering/31",
+   "output": "정답일 가능성이 가장 높은 선택지는 **B** 입니다.\n\n",
+   "generated": 1,
+   "letter_prob": 2
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/Kedu_tradition_21",
+   "output": "정답을 정확히 예측하기 위해서는 질문의 맥락이나 주제가 필요합니다.",
+   "generated": null,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/TK_2017_28",
+   "output": "정답일 가능성이 가장 높은 선택지는 **B. 조상과 후손의",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Taxation/38",
+   "output": "정답일 가능성이 가장 높은 선택지는 **C** 입니다.\n\n",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Chemical-Engineering/297",
+   "output": "주어진 선택지들 중에서 일반적인 제어 이론 및 시스템 동역학의",
+   "generated": null,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Law/649",
+   "output": "정답일 가능성이 가장 높은 선택지는 **C** 입니다.\n\n",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/PSE_history_13_14",
+   "output": "정답일 가능성이 가장 높은 선택지는 **D** 입니다.\n\n",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/KHB_66_1",
+   "output": "정답일 가능성이 가장 높은 선택지는 **D** 입니다.\n\n",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Refrigerating-Machinery/597",
+   "output": "정답을 정확히 예측하기 위해서는 문제의 맥락이나 추가 정보가 필요합니다",
+   "generated": null,
+   "letter_prob": 2
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/TK_2022_10",
+   "output": "정답일 가능성이 가장 높은 선택지는 **D** 입니다.\n\n",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/CSAT_korean_15_8",
+   "output": "정답일 가능성이 가장 높은 선택지는 **E** 입니다.\n\n",
+   "generated": 4,
+   "letter_prob": 4
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/Kedu_15_20",
+   "output": "정답일 가능성이 가장 높은 선택지는 **B** 입니다.\n\n",
+   "generated": 1,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Materials-Engineering/765",
+   "output": "정답일 가능성이 가장 높은 선택지는 **B. 인상 담금질",
+   "generated": 1,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/KIIP_geography_64",
+   "output": "정답일 가능성이 가장 높은 선택지는 **B. 세계육상선수",
+   "generated": 1,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Political-Science-and-Sociology/84",
+   "output": "정답일 가능성이 가장 높은 선택지는 **B** 입니다.\n\n",
+   "generated": 1,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/PSAT_19_21",
+   "output": "정답일 가능성이 가장 높은 선택지는 **B** 입니다.\n\n",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/TK_2017_34",
+   "output": "D",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/TK_2019_13",
+   "output": "정답을 정확히 예측하기 위해서는 질문의 맥락이나 문제의 본질에 대한",
+   "generated": null,
+   "letter_prob": 0
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Industrial-Engineer/466",
+   "output": "정답 예측은 질문의 맥락 없이 매우 어렵습니다. 하지만 일반적으로 \"객",
+   "generated": null,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/Kedu_history_31",
+   "output": "정답일 가능성이 가장 높은 선택지는 **C** 입니다.\n\n",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Electronics-Engineering/144",
+   "output": "정답일 가능성이 가장 높은 선택지는 **C. 주파수 변환회로",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Management/498",
+   "output": "정답일 가능성이 가장 높은 선택지는 **B** 입니다.\n\n",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Electronics-Engineering/931",
+   "output": "정답을 정확히 예측하기 위해서는 문제의 맥락이나 주제가 필요합니다.",
+   "generated": null,
+   "letter_prob": 2
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/Kedu_tradition_12",
+   "output": "D",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Criminal-Law/112",
+   "output": "정답일 가능성이 가장 높은 선택지는 **C** 입니다.\n\n",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/KIIP_politics_44",
+   "output": "정답일 가능성이 가장 높은 선택지는 **B. 입법부** 입니다",
+   "generated": 1,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/PSE_korean_11",
+   "output": "정답일 가능성이 가장 높은 선택지는 **B** 입니다.\n\n",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Korean-History/6",
+   "output": "정답일 가능성이 가장 높은 선택지는 **C** 입니다.\n\n",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/TK_2019_20",
+   "output": "정답일 가능성이 가장 높은 선택지는 **D. 귀를 기울여**",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/PSE_history_18_9",
+   "output": "정답일 가능성이 가장 높은 선택지는 **D** 입니다.\n\n",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/KIIP_society_275",
+   "output": "정답일 가능성이 가장 높은 선택지는 **A** 입니다.\n\n",
+   "generated": 0,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/CSAT_korean_16_11",
+   "output": "정답일 가능성이 가장 높은 선택지는 **B** 입니다.\n\n",
+   "generated": 1,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/PSAT_23_2",
+   "output": "정답일 가능성이 가장 높은 선택지는 **C** 입니다.\n\n",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/TK_2018_33",
+   "output": "정답일 가능성이 가장 높은 선택지는 **B** 입니다.\n\n",
+   "generated": 1,
+   "letter_prob": 2
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Energy-Management/93",
+   "output": "정답을 정확히 예측하기 위해서는 질문의 맥락이나 추가 정보가 필요합니다",
+   "generated": null,
+   "letter_prob": 2
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Materials-Engineering/764",
+   "output": "정답일 가능성이 가장 높은 선택지는 **B** 입니다.\n\n",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Ecology/461",
+   "output": "정답을 정확히 예측하기 위해서는 질문의 맥락이나 관련 정보가 필요합니다",
+   "generated": null,
+   "letter_prob": 2
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/KIIP_tradition_67",
+   "output": "정답을 정확히 예측하기 위해서는 질문의 맥락이 필요합니다. 하지만 일반",
+   "generated": null,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Computer-Science/300",
+   "output": "정답일 가능성이 가장 높은 선택지는 **D. 최초 적합(first",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/TK_2018_19",
+   "output": "문제의 맥락이 명확하지 않아 정확한 판단이 어렵지만,",
+   "generated": null,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/Kedu_16_48",
+   "output": "정답일 가능성이 가장 높은 선택지는 **D** 입니다.\n\n",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/KIIP_society_188",
+   "output": "정답일 가능성이 가장 높은 선택지는 **A** 입니다.\n\n",
+   "generated": 0,
+   "letter_prob": 2
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Mechanical-Engineering/949",
+   "output": "정답일 가능성이 가장 높은 선택지는 **C** 입니다.\n\n",
+   "generated": 2,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/KIIP_geography_45",
+   "output": "정답을 정확히 예측하기 위해서는 질문의 맥락이나 주제가 필요합니다.",
+   "generated": null,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/KIIP_law_23",
+   "output": "정답을 정확히 예측하기 위해서는 질문의 맥락이나 주제가 필요합니다.",
+   "generated": null,
+   "letter_prob": 2
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Ecology/250",
+   "output": "정답일 가능성이 가장 높은 선택지는 **B. Bergmann의 최소",
+   "generated": 1,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Political-Science-and-Sociology/288",
+   "output": "정답일 가능성이 가장 높은 선택지는 **D** 입니다.\n\n",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Telecommunications-and-Wireless-Technology/706",
+   "output": "정답일 가능성이 가장 높은 선택지는 **C** 입니다.\n\n",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Math/259",
+   "output": "정답을 정확히 예측하기 위해서는 문제의 맥락이나 추가 정보가 필요합니다",
+   "generated": null,
+   "letter_prob": 2
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/KIIP_politics_14",
+   "output": "정답일 가능성이 가장 높은 선택지는 **B. 대통령 선거 부정**",
+   "generated": 1,
+   "letter_prob": 2
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/KIIP_society_10",
+   "output": "정답을 정확히 예측하기 위해서는 질문의 맥락이나 주제에 대한 추가 정보",
+   "generated": null,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/TK_2019_33",
+   "output": "정답일 가능성이 가장 높은 선택지는 **B** 입니다.\n\n",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Geomatics/203",
+   "output": "정답일 가능성이 가장 높은 선택지는 **C** 입니다.\n\n",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/PSE_history_22_14",
+   "output": "정답일 가능성이 가장 높은 선택지는 **C** 입니다.\n\n",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/KIIP_geography_65",
+   "output": "정답일 가능성이 가장 높은 선택지는 **B** 입니다.\n\n",
+   "generated": 1,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/KIIP_economy_14",
+   "output": "정답을 정확히 예측하기 위해서는 문제의 맥락이나 주제가 필요합니다.",
+   "generated": null,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/CSAT_korean_22_1",
+   "output": "정답일 가능성이 가장 높은 선택지는 **C. 시대적 과제를",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/PSE_history_15_17",
+   "output": "정답일 가능성이 가장 높은 선택지는 **B** 입니다.\n\n",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Law/905",
+   "output": "정답일 가능성이 가장 높은 선택지는 **B** 입니다.\n\n",
+   "generated": 1,
+   "letter_prob": 2
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Civil-Engineering/299",
+   "output": "정답일 가능성이 가장 높은 선택지는 **A. 미르달(G",
+   "generated": 0,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/CSAT_korean_16_14",
+   "output": "정답일 가능성이 가장 높은 선택지는 **B** 입니다.\n\n",
+   "generated": 1,
+   "letter_prob": 2
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/TK_2022_11",
+   "output": "정답일 가능성이 가장 높은 선택지는 **B** 입니다.\n\n",
+   "generated": 1,
+   "letter_prob": 2
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/PSE_history_21_17",
+   "output": "정답일 가능성이 가장 높은 선택지는 **C** 입니다.\n\n",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/TK_2019_45",
+   "output": "정답을 정확히 예측하기 위해서는 질문의 맥락이나 선택지의 내용이 필요",
+   "generated": null,
+   "letter_prob": 2
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Agricultural-Sciences/467",
+   "output": "정답일 가능성이 가장 높은 선택지는 **B** 입니다.\n\n",
+   "generated": 1,
+   "letter_prob": 2
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Criminal-Law/154",
+   "output": "정답일 가능성이 가장 높은 선택지는 **D** 입니다.\n\n",
+   "generated": 3,
+   "letter_prob": 2
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/KIIP_tradition_25",
+   "output": "정답을 정확히 예측하기 위해서는 질문의 맥락이나 주제가 필요합니다.",
+   "generated": null,
+   "letter_prob": 2
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/Kedu_16_6#2",
+   "output": "정답일 가능성이 가장 높은 선택지는 **D** 입니다.\n\n",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Real-Estate/93",
+   "output": "정답일 가능성이 가장 높은 선택지는 **C** 입니다.\n\n",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/Kedu_Society_12",
+   "output": "D",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/Kedu_14_56",
+   "output": "정답일 가능성이 가장 높은 선택지는 **C. 왕십리: Wangsim",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/CSAT_korean_16_3",
+   "output": "정답일 가능성이 가장 높은 선택지는 **E** 입니다.\n\n",
+   "generated": 4,
+   "letter_prob": 4
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/KIIP_society_123",
+   "output": "정답일 가능성이 가장 높은 선택지는 **B. 무선통신사**",
+   "generated": 1,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/KIIP_politics_73",
+   "output": "정답을 정확히 예측하기 위해서는 질문의 맥락이나 주제가 필요합니다.",
+   "generated": null,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Accounting/48",
+   "output": "정답일 가능성이 가장 높은 선택지는 **C** 입니다.\n\n",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/KIIP_politics_18",
+   "output": "정답을 정확히 예측하기 위해서는 질문의 맥락이 필요합니다. 하지만 주어진",
+   "generated": null,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/KHB_66_32",
+   "output": "정답일 가능성이 가장 높은 선택지는 **D** 입니다.\n\n",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/Kedu_15_12",
+   "output": "정답일 가능성이 가장 높은 선택지는 **B** 입니다.\n\n",
+   "generated": 1,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/CSAT_korean_22_10",
+   "output": "정답일 가능성이 가장 높은 선택지는 **A** 입니다.\n\n",
+   "generated": 0,
+   "letter_prob": 0
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Nondestructive-Testing/324",
+   "output": "정답일 가능성이 가장 높은 선택지는 **A. 시험품의 모양",
+   "generated": 0,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Interior-Architecture-and-Design/570",
+   "output": "정답일 가능성이 가장 높은 선택지는 **D** 입니다.\n\n",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/KIIP_tradition_69",
+   "output": "정답을 정확히 예측하기 위해서는 질문의 맥락이나 주제가 필요합니다.",
+   "generated": null,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Mechanical-Engineering/44",
+   "output": "정답을 정확히 예측하기 위해서는 질문의 맥락이나 주제가 필요합니다.",
+   "generated": null,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/KIIP_society_269",
+   "output": "정답일 가능성이 가장 높은 선택지는 **B** 입니다.\n\n",
+   "generated": 1,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/CSAT_korean_22_22",
+   "output": "정답일 가능성이 가장 높은 선택지는 **C** 입니다.\n\n",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Civil-Engineering/690",
+   "output": "정답일 가능성이 가장 높은 선택지는 **D** 입니다.\n\n",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Gas-Technology-and-Engineering/290",
+   "output": "문제의 맥락이 명확하지 않아 정확한 판단이 어렵지만,",
+   "generated": null,
+   "letter_prob": 2
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/TK_2022_5",
+   "output": "정답 예측은 질문의 맥락 없이 매우 어렵습니다. 하지만 일반적으로 학습이나",
+   "generated": null,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/PSAT_17_4",
+   "output": "정답일 가능성이 가장 높은 선택지는 **D** 입니다.\n\n",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Industrial-Engineer/178",
+   "output": "D",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Interior-Architecture-and-Design/183",
+   "output": "정답일 가능성이 가장 높은 선택지는 **D** 입니다.\n\n",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/CSAT_korean_12_11",
+   "output": "정답일 가능성이 가장 높은 선택지는 **C** 입니다.\n\n",
+   "generated": 2,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Electronics-Engineering/768",
+   "output": "정답일 가능성이 가장 높은 선택지는 **C. compiler** 입니다.",
+   "generated": 2,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/CSAT_korean_11_12",
+   "output": "정답일 가능성이 가장 높은 선택지는 **D** 입니다.\n\n",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/PSE_history_20_13",
+   "output": "정답일 가능성이 가장 높은 선택지는 **D** 입니다.\n\n",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/KIIP_economy_35",
+   "output": "정답일 가능성이 가장 높은 선택지는 **C** 입니다.\n\n",
+   "generated": 2,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Criminal-Law/101",
+   "output": "B",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Construction/704",
+   "output": "정답을 정확히 예측하기 위해서는 문제의 맥락이나 추가 정보가 필요합니다",
+   "generated": null,
+   "letter_prob": 2
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Math/183",
+   "output": "정답일 가능성이 가장 높은 선택지는 **A** 입니다. \n",
+   "generated": 0,
+   "letter_prob": 2
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/TK_2016_11",
+   "output": "D",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/Kedu_history_44",
+   "output": "정답일 가능성이 가장 높은 선택지는 **B. 가례도감",
+   "generated": 1,
+   "letter_prob": 2
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/KHB_66_15",
+   "output": "정답일 가능성이 가장 높은 선택지는 **D** 입니다.\n\n",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Economics/14",
+   "output": "정답일 가능성이 가장 높은 선택지는 **C** 입니다.\n\n",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Marketing/113",
+   "output": "정답일 가능성이 가장 높은 선택지는 **C. 상담 목적** 입니다",
+   "generated": 2,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/PSE_history_22_8",
+   "output": "정답일 가능성이 가장 높은 선택지는 **C. 무오사화",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Maritime-Engineering/360",
+   "output": "정답일 가능성이 가장 높은 선택지는 **C. 쿠로시오 해류",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/KIIP_society_281",
+   "output": "정답일 가능성이 가장 높은 선택지는 **B. 이사 비용이 상승",
+   "generated": 1,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Education/83",
+   "output": "정답을 정확히 예측하기 위해서는 질문의 맥락이나 주제가 필요합니다.",
+   "generated": null,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/PSE_history_21_12",
+   "output": "정답일 가능성이 가장 높은 선택지는 **B. 임오군란",
+   "generated": 1,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Nondestructive-Testing/181",
+   "output": "정답을 정확히 예측하기 위해서는 질문의 맥락이나 추가 정보가 필요합니다",
+   "generated": null,
+   "letter_prob": 2
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/Kedu_14_13",
+   "output": "정답일 가능성이 가장 높은 선택지는 **D** 입니다.\n\n",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/TK_2022_26",
+   "output": "정답일 가능성이 가장 높은 선택지는 **B** 입니다.\n\n",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/PSE_history_20_2",
+   "output": "정답일 가능성이 가장 높은 선택지는 **C** 입니다.\n\n",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Geomatics/974",
+   "output": "정답일 가능성이 가장 높은 선택지는 **D** 입니다.\n\n",
+   "generated": 3,
+   "letter_prob": 2
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/PSAT_23_7",
+   "output": "정답일 가능성이 가장 높은 선택지는 **D** 입니다.\n\n",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/PSE_history_21_11",
+   "output": "D",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/PSAT_20_14",
+   "output": "정답일 가능성이 가장 높은 선택지는 **B** 입니다.\n\n",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Maritime-Engineering/319",
+   "output": "D",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/KIIP_economy_23",
+   "output": "정답을 정확히 예측하기 위해서는 문제의 맥락이나 주제가 필요합니다.",
+   "generated": null,
+   "letter_prob": 2
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Criminal-Law/131",
+   "output": "정답일 가능성이 가장 높은 선택지는 **B** 입니다.\n\n",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/PSAT_22_2",
+   "output": "C",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/PSE_korean_5",
+   "output": "정답일 가능성이 가장 높은 선택지를 정확히 지정하기 위해서는 질문의",
+   "generated": null,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Railway-and-Automotive-Engineering/82",
+   "output": "정답을 정확히 예측하기 위해서는 문제의 맥락이나 추가 정보가 필요합니다",
+   "generated": null,
+   "letter_prob": 2
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Math/14",
+   "output": "정답일 가능성이 가장 높은 선택지는 **D. 4** 입니다",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/PSAT_18_13",
+   "output": "B",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Interior-Architecture-and-Design/652",
+   "output": "정답을 정확히 예측하기 위해서는 문제의 맥락이나 추가 정보가 필요합니다",
+   "generated": null,
+   "letter_prob": 2
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Maritime-Engineering/293",
+   "output": "정답일 가능성이 가장 높은 선택지는 **D. 용존산소**",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Food-Processing/667",
+   "output": "정답일 가능성이 가장 높은 선택지는 **B. 생산 가능곡선",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Gas-Technology-and-Engineering/217",
+   "output": "정답일 가능성이 가장 높은 선택지는 **D** 입니다.\n\n",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/Kedu_14_42",
+   "output": "정답일 가능성이 가장 높은 선택지는 **D. 개념적 의미**",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Gas-Technology-and-Engineering/446",
+   "output": "정답일 가능성이 가장 높은 선택지는 **D. 3×1",
+   "generated": 3,
+   "letter_prob": 2
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Biology/909",
+   "output": "정답일 가능성이 가장 높은 선택지는 **D. 침투성 살균제**",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/KIIP_politics_21",
+   "output": "정답일 가능성이 가장 높은 선택지는 **C. 행정부와 국회의",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/KIIP_society_76",
+   "output": "정답일 가능성이 가장 높은 선택지는 **C. 외사촌** 입니다",
+   "generated": 2,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Law/237",
+   "output": "정답일 가능성이 가장 높은 선택지는 **C. 위험의 감수**",
+   "generated": 2,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/KIIP_geography_63",
+   "output": "정답일 가능성이 가장 높은 선택지는 **C. 신라** 입니다.",
+   "generated": 2,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Computer-Science/384",
+   "output": "정답일 가능성이 가장 높은 선택지는 **D. 인터럽트 처리",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Criminal-Law/6",
+   "output": "정답일 가능성이 가장 높은 선택지는 **A** 입니다.\n\n",
+   "generated": 0,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/KIIP_society_167",
+   "output": "정답일 가능성이 가장 높은 선택지는 **B. 무료로 의료기관",
+   "generated": 1,
+   "letter_prob": 2
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/Kedu_tradition_20",
+   "output": "정답일 가능성이 가장 높은 선택지는 **C** 입니다.\n\n",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Electrical-Engineering/272",
+   "output": "정답을 정확히 예측하기 위해서는 문제의 맥락이나 추가 정보가 필요합니다",
+   "generated": null,
+   "letter_prob": 2
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/TK_2016_18",
+   "output": "정답일 가능성이 가장 높은 선택지를 정확히 지정하기 위해서는 질문의",
+   "generated": null,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Energy-Management/469",
+   "output": "정답일 가능성이 가장 높은 선택지는 **D. 버너의 종류**",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/TK_2022_31",
+   "output": "D",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Biology/406",
+   "output": "정답일 가능성이 가장 높은 선택지는 **D. 바이러스** 입니다.",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/Kedu_16_15",
+   "output": "정답일 가능성이 가장 높은 선택지는 **D. 역행 - 완전**",
+   "generated": 3,
+   "letter_prob": 2
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Construction/673",
+   "output": "정답을 정확히 예측하기 위해서는 질문의 맥락이나 문제의 세부 사항이",
+   "generated": null,
+   "letter_prob": 2
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/TK_2018_16",
+   "output": "문제의 맥락이 명확하지 않아 정확한 판단이 어렵지만,",
+   "generated": null,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/KIIP_society_251",
+   "output": "정답일 가능성이 가장 높은 선택지는 **C. 비교적 싸다",
+   "generated": 2,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/TK_2022_29",
+   "output": "정답일 가능성이 가장 높은 선택지는 **B. 공이 잘 보이",
+   "generated": 1,
+   "letter_prob": 2
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/Kedu_15_18",
+   "output": "정답일 가능성이 가장 높은 선택지는 **B** 입니다.\n\n",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/PSE_history_20_3",
+   "output": "정답일 가능성이 가장 높은 선택지는 **C** 입니다.\n\n",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/KIIP_society_186",
+   "output": "정답일 가능성이 가장 높은 선택지는 **B. 국·공립",
+   "generated": 1,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Real-Estate/150",
+   "output": "정답을 정확히 예측하기 위해서는 질문의 맥락이나 추가 정보가 필요합니다",
+   "generated": null,
+   "letter_prob": 2
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/Kedu_15_52",
+   "output": "B",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/PSE_history_16_12",
+   "output": "정답일 가능성이 가장 높은 선택지는 **D** 입니다.\n\n",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Management/740",
+   "output": "정답일 가능성이 가장 높은 선택지는 **B** 입니다.\n\n",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/PSE_history_16_1",
+   "output": "정답일 가능성이 가장 높은 선택지는 **C** 입니다.\n\n",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/Kedu_14_1",
+   "output": "정답일 가능성이 가장 높은 선택지는 **A** 입니다.\n\n",
+   "generated": 0,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Interior-Architecture-and-Design/512",
+   "output": "정답을 정확히 예측하기 위해서는 질문의 맥락이나 문제의 본질이 필요",
+   "generated": null,
+   "letter_prob": 2
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/Kedu_16_44",
+   "output": "정답일 가능성이 가장 높은 선택지는 **C** 입니다.\n\n",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Industrial-Engineer/938",
+   "output": "정답을 정확히 예측하기 위해서는 질문의 맥락이 필요합니다. 하지만 주어진",
+   "generated": null,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/TK_2017_48",
+   "output": "정답일 가능성이 가장 높은 선택지는 **B. 신기술을 특허",
+   "generated": 1,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/KIIP_society_170",
+   "output": "문제의 맥락이 명확하지 않아 정확한 판단이 어렵지만,",
+   "generated": null,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/PSAT_20_23",
+   "output": "정답일 가능성이 가장 높은 선택지는 **D** 입니다.\n\n",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/Kedu_15_1",
+   "output": "정답일 가능성이 가장 높은 선택지는 **B** 입니다.\n\n",
+   "generated": 1,
+   "letter_prob": 2
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Social-Welfare/160",
+   "output": "정답일 가능성이 가장 높은 선택지는 **B** 입니다.\n\n",
+   "generated": 1,
+   "letter_prob": 2
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/PSAT_19_5",
+   "output": "정답일 가능성이 가장 높은 선택지는 **D** 입니다.\n\n",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Management/358",
+   "output": "정답일 가능성이 가장 높은 선택지는 **B** 입니다.\n\n",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/KIIP_economy_46",
+   "output": "정답일 가능성이 가장 높은 선택지는 **D. 상품을 구입한",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/KHB_66_28",
+   "output": "정답일 가능성이 가장 높은 선택지는 **D. 임술 농민 봉기",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/KIIP_society_91",
+   "output": "정답일 가능성이 가장 높은 선택지는 **B. 호칭으로 부름**",
+   "generated": 1,
+   "letter_prob": 2
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/KIIP_society_13",
+   "output": "정답일 가능성이 가장 높은 선택지는 **D. 헌법의 맹세**",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/KIIP_society_255",
+   "output": "정답일 가능성이 가장 높은 선택지는 **D** 입니다. \n",
+   "generated": 3,
+   "letter_prob": 2
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/TK_2019_49",
+   "output": "정답일 가능성이 가장 높은 선택지는 **B** 입니다.\n\n",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/CSAT_korean_17_5",
+   "output": "정답일 가능성이 가장 높은 선택지는 **D** 입니다.\n\n",
+   "generated": 3,
+   "letter_prob": 2
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Political-Science-and-Sociology/0",
+   "output": "정답일 가능성이 가장 높은 선택지는 **A** 입니다.\n\n",
+   "generated": 0,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Construction/196",
+   "output": "정답일 가능성이 가장 높은 선택지는 **C** 입니다.\n\n",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Mechanical-Engineering/158",
+   "output": "정답을 정확히 예측하기 위해서는 질문의 맥락이나 문제의 세부 사항이",
+   "generated": null,
+   "letter_prob": 2
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Economics/75",
+   "output": "정답일 가능성이 가장 높은 선택지는 **B. 20,",
+   "generated": 1,
+   "letter_prob": 2
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/KHB_66_3",
+   "output": "정답일 가능성이 가장 높은 선택지는 **D. 독서삼품과",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/PSAT_20_12",
+   "output": "정답일 가능성이 가장 높은 선택지는 **D** 입니다.\n\n",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/KIIP_popular_9",
+   "output": "정답일 가능성이 가장 높은 선택지는 **D. 정치, 사회,",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Nondestructive-Testing/27",
+   "output": "D",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/Kedu_16_26",
+   "output": "정답일 가능성이 가장 높은 선택지는 **B** 입니다.\n\n",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Gas-Technology-and-Engineering/745",
+   "output": "정답을 정확히 예측하기 위해서는 질문의 맥락이나 주제가 필요합니다.",
+   "generated": null,
+   "letter_prob": 2
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Interior-Architecture-and-Design/474",
+   "output": "정답일 가능성이 가장 높은 선택지는 **C** 입니다.\n\n",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Agricultural-Sciences/258",
+   "output": "정답을 정확히 예측하기 위해서는 질문의 맥락이나 추가 정보가 필요합니다",
+   "generated": null,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/KIIP_tradition_74",
+   "output": "정답일 가능성이 가장 높은 선택지는 **C. 하나의 학문**",
+   "generated": 2,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Machine-Design-and-Manufacturing/490",
+   "output": "정답을 정확히 예측하기 위해서는 질문의 맥락이나 관련된 수학적/",
+   "generated": null,
+   "letter_prob": 2
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Economics/8",
+   "output": "정답일 가능성이 가장 높은 선택지를 정확히 지정하기 위해서는 질문의",
+   "generated": null,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/KIIP_society_276",
+   "output": "정답일 가능성이 가장 높은 선택지는 **D. 이사 간 사실을",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Industrial-Engineer/612",
+   "output": "정답을 정확히 예측하기 위해서는 질문의 맥락이나 주제가 필요합니다.",
+   "generated": null,
+   "letter_prob": 2
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Public-Safety/337",
+   "output": "정답을 정확히 예측하기 위해서는 질문의 맥락이나 주제가 필요합니다.",
+   "generated": null,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/CSAT_korean_23_35",
+   "output": "정답일 가능성이 가장 높은 선택지는 **E** 입니다.\n\n",
+   "generated": 4,
+   "letter_prob": 4
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Fashion/982",
+   "output": "정답일 가능성이 가장 높은 선택지는 **D** 입니다.\n\n",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Taxation/92",
+   "output": "정답일 가능성이 가장 높은 선택지는 **B** 입니다.\n\n",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/Kedu_14_18",
+   "output": "문제의 맥락이 명확하지 않아 정확한 판단이 어렵지만,",
+   "generated": null,
+   "letter_prob": 2
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Civil-Engineering/766",
+   "output": "정답일 가능성이 가장 높은 선택지는 **C** 입니다.\n\n",
+   "generated": 2,
+   "letter_prob": 2
+  }
+ ]
+}

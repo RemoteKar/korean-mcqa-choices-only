@@ -1,0 +1,2 @@
+model,d_orig,d_share,d_tr,n_pairs,h2_supported
+exaone,"5.8 [1.4, 10.0]","19.0 [1.5, 36.6]","-5.8 [-8.8, -2.7]",600,True

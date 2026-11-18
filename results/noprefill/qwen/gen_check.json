@@ -1,0 +1,2816 @@
+{
+ "report": {
+  "model": "qwen",
+  "n": 200,
+  "full": {
+   "parsed": 0.98,
+   "agreement": 0.96
+  },
+  "choices_only": {
+   "parsed": 1.0,
+   "agreement": 0.985
+  }
+ },
+ "examples": [
+  {
+   "condition": "full",
+   "uid": "click/Kedu_16_23",
+   "output": "B",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Railway-and-Automotive-Engineering/31",
+   "output": "C",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "full",
+   "uid": "click/Kedu_tradition_21",
+   "output": "D. 비목",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "full",
+   "uid": "click/TK_2017_28",
+   "output": "B. 조상과 후손의 연결이라는",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Taxation/38",
+   "output": "C",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Chemical-Engineering/297",
+   "output": "D. K가 클수록 응답이 빨라진",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Law/649",
+   "output": "A",
+   "generated": 0,
+   "letter_prob": 0
+  },
+  {
+   "condition": "full",
+   "uid": "click/PSE_history_13_14",
+   "output": "C",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "full",
+   "uid": "click/KHB_66_1",
+   "output": "C. 주로 동굴이나 막집에서 살았다.",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Refrigerating-Machinery/597",
+   "output": "D. 1/250",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "full",
+   "uid": "click/TK_2022_10",
+   "output": "B",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "full",
+   "uid": "click/CSAT_korean_15_8",
+   "output": "E",
+   "generated": 4,
+   "letter_prob": 4
+  },
+  {
+   "condition": "full",
+   "uid": "click/Kedu_15_20",
+   "output": "B.",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Materials-Engineering/765",
+   "output": "B. 인상 담금질",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "full",
+   "uid": "click/KIIP_geography_64",
+   "output": "C. 월드컵",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Political-Science-and-Sociology/84",
+   "output": "C. B는 권한쟁의 심판을 담당한다",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "full",
+   "uid": "click/PSAT_19_21",
+   "output": "D",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "full",
+   "uid": "click/TK_2017_34",
+   "output": "D. 통계는 기준 설정에 따라 다양하게 해석될 수",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "full",
+   "uid": "click/TK_2019_13",
+   "output": "C. (라) - (가) - (나) - (다",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Industrial-Engineer/466",
+   "output": "B. 산업 디자인",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "full",
+   "uid": "click/Kedu_history_31",
+   "output": "B",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Electronics-Engineering/144",
+   "output": "B. 검파회로",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Management/498",
+   "output": "A",
+   "generated": 0,
+   "letter_prob": 0
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Electronics-Engineering/931",
+   "output": "B. 29",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "full",
+   "uid": "click/Kedu_tradition_12",
+   "output": "C. 반상의 첩수에 국과 김치는 포함되지",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Criminal-Law/112",
+   "output": "C",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "full",
+   "uid": "click/KIIP_politics_44",
+   "output": "B. 입법부",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "full",
+   "uid": "click/PSE_korean_11",
+   "output": "D. 사물을 그림을 그리듯이 표현하고 있다.",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Korean-History/6",
+   "output": "A. 공화제 국가 수립을 지향하였다.",
+   "generated": 0,
+   "letter_prob": 2
+  },
+  {
+   "condition": "full",
+   "uid": "click/TK_2019_20",
+   "output": "B. 진땀을 흘려",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "full",
+   "uid": "click/PSE_history_18_9",
+   "output": "A.",
+   "generated": 0,
+   "letter_prob": 0
+  },
+  {
+   "condition": "full",
+   "uid": "click/KIIP_society_275",
+   "output": "D. 주택 수량 증가",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "full",
+   "uid": "click/CSAT_korean_16_11",
+   "output": "B. (ㄱ):그는 성공할 가능성이 크다. (",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "full",
+   "uid": "click/PSAT_23_2",
+   "output": "B",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "full",
+   "uid": "click/TK_2018_33",
+   "output": "C",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Energy-Management/93",
+   "output": "이 문제는 보일러 두께 계산에 대한 것입니다. 보일",
+   "generated": null,
+   "letter_prob": 1
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Materials-Engineering/764",
+   "output": "B",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Ecology/461",
+   "output": "B. 뽕나무오갈병",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "full",
+   "uid": "click/KIIP_tradition_67",
+   "output": "B. 쌀",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Computer-Science/300",
+   "output": "B. 삭제(delete) 전략",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "full",
+   "uid": "click/TK_2018_19",
+   "output": "B. 이를 간다",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "full",
+   "uid": "click/Kedu_16_48",
+   "output": "D. 치음은 전청자 ‘ㅅ, ㅈ’ 중",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "full",
+   "uid": "click/KIIP_society_188",
+   "output": "B. 평일 오전 9시부터 오후 2시",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Mechanical-Engineering/949",
+   "output": "B. 격자보에 접합판을 대서 접합한",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "full",
+   "uid": "click/KIIP_geography_45",
+   "output": "A. 광산산업",
+   "generated": 0,
+   "letter_prob": 0
+  },
+  {
+   "condition": "full",
+   "uid": "click/KIIP_law_23",
+   "output": "C. 3년",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Ecology/250",
+   "output": "C. Liebig의 최소량의 법칙",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Political-Science-and-Sociology/288",
+   "output": "C",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Telecommunications-and-Wireless-Technology/706",
+   "output": "A",
+   "generated": 0,
+   "letter_prob": 0
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Math/259",
+   "output": "D. 16/25",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "full",
+   "uid": "click/KIIP_politics_14",
+   "output": "A. 국회의원 총선거 개표 조작",
+   "generated": 0,
+   "letter_prob": 0
+  },
+  {
+   "condition": "full",
+   "uid": "click/KIIP_society_10",
+   "output": "D. 민주가",
+   "generated": 3,
+   "letter_prob": 0
+  },
+  {
+   "condition": "full",
+   "uid": "click/TK_2019_33",
+   "output": "B.",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Geomatics/203",
+   "output": "A",
+   "generated": 0,
+   "letter_prob": 0
+  },
+  {
+   "condition": "full",
+   "uid": "click/PSE_history_22_14",
+   "output": "B. 전국 여러 곳에 척화비를 세우도록",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "full",
+   "uid": "click/KIIP_geography_65",
+   "output": "D. 한류 드라마 촬영",
+   "generated": 3,
+   "letter_prob": 0
+  },
+  {
+   "condition": "full",
+   "uid": "click/KIIP_economy_14",
+   "output": "D. 10,000억 달러",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "full",
+   "uid": "click/CSAT_korean_22_1",
+   "output": "B.",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "full",
+   "uid": "click/PSE_history_15_17",
+   "output": "C",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Law/905",
+   "output": "D. 법은 합목적성에 기초하는 반面,",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Civil-Engineering/299",
+   "output": "B. 허시만(A. O. Hirschman)",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "full",
+   "uid": "click/CSAT_korean_16_14",
+   "output": "B",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "full",
+   "uid": "click/TK_2022_11",
+   "output": "C. 이번 지진으로 큰 피해를 입은 사람들이 많다.",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "full",
+   "uid": "click/PSE_history_21_17",
+   "output": "B. 역둔토, 궁장토를 총독부",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "full",
+   "uid": "click/TK_2019_45",
+   "output": "C. ㉢",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Agricultural-Sciences/467",
+   "output": "A",
+   "generated": 0,
+   "letter_prob": 0
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Criminal-Law/154",
+   "output": "A",
+   "generated": 0,
+   "letter_prob": 0
+  },
+  {
+   "condition": "full",
+   "uid": "click/KIIP_tradition_25",
+   "output": "C. 한국",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "full",
+   "uid": "click/Kedu_16_6#2",
+   "output": "B",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Real-Estate/93",
+   "output": "B",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "full",
+   "uid": "click/Kedu_Society_12",
+   "output": "D. 고령화는",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "full",
+   "uid": "click/Kedu_14_56",
+   "output": "A",
+   "generated": 0,
+   "letter_prob": 0
+  },
+  {
+   "condition": "full",
+   "uid": "click/CSAT_korean_16_3",
+   "output": "D. ‘반대 1’은 기존 방식의 긍",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "full",
+   "uid": "click/KIIP_society_123",
+   "output": "A. 우체국",
+   "generated": 0,
+   "letter_prob": 0
+  },
+  {
+   "condition": "full",
+   "uid": "click/KIIP_politics_73",
+   "output": "B. 중국",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Accounting/48",
+   "output": "C. 장기 시세차익을 얻기 위하여 보유하고",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "full",
+   "uid": "click/KIIP_politics_18",
+   "output": "A. 이승만",
+   "generated": 0,
+   "letter_prob": 0
+  },
+  {
+   "condition": "full",
+   "uid": "click/KHB_66_32",
+   "output": "C. 경부선 철도 개통식에 참석하는 관",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "full",
+   "uid": "click/Kedu_15_12",
+   "output": "D. ㉣",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "full",
+   "uid": "click/CSAT_korean_22_10",
+   "output": "B. 브레턴우즈 체제 붕괴 이후",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Nondestructive-Testing/324",
+   "output": "A. 시험품의 모양과 치수",
+   "generated": 0,
+   "letter_prob": 0
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Interior-Architecture-and-Design/570",
+   "output": "D. 연화점은 720℃~730℃",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "full",
+   "uid": "click/KIIP_tradition_69",
+   "output": "A. 불교",
+   "generated": 0,
+   "letter_prob": 0
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Mechanical-Engineering/44",
+   "output": "D. S",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "full",
+   "uid": "click/KIIP_society_269",
+   "output": "B. 교통이 편리하고 다양한 편의시설",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "full",
+   "uid": "click/CSAT_korean_22_22",
+   "output": "A. (가)에서는 ‘묵화’와 ‘박쥐 나래",
+   "generated": 0,
+   "letter_prob": 0
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Civil-Engineering/690",
+   "output": "C",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Gas-Technology-and-Engineering/290",
+   "output": "C",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "full",
+   "uid": "click/TK_2022_5",
+   "output": "D. 노트북",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "full",
+   "uid": "click/PSAT_17_4",
+   "output": "A",
+   "generated": 0,
+   "letter_prob": 0
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Industrial-Engineer/178",
+   "output": "D",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Interior-Architecture-and-Design/183",
+   "output": "B",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "full",
+   "uid": "click/CSAT_korean_12_11",
+   "output": "D. 정성이 담긴 선물을 받으면 기쁩니다. 정",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Electronics-Engineering/768",
+   "output": "A",
+   "generated": 0,
+   "letter_prob": 0
+  },
+  {
+   "condition": "full",
+   "uid": "click/CSAT_korean_11_12",
+   "output": "D",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "full",
+   "uid": "click/PSE_history_20_13",
+   "output": "D. 당에서 숙위 활동을 하다가 부대총관",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "full",
+   "uid": "click/KIIP_economy_35",
+   "output": "A. 농협, 수협, 우체국",
+   "generated": 0,
+   "letter_prob": 0
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Criminal-Law/101",
+   "output": "D",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Construction/704",
+   "output": "이 문제는 물리학과 관련된 문제로, 주요 원리는",
+   "generated": null,
+   "letter_prob": 1
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Math/183",
+   "output": "C. [71.8, 74.2]",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "full",
+   "uid": "click/TK_2016_11",
+   "output": "A.",
+   "generated": 0,
+   "letter_prob": 0
+  },
+  {
+   "condition": "full",
+   "uid": "click/Kedu_history_44",
+   "output": "C. 보인소의궤(寶印所儀軌)",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "full",
+   "uid": "click/KHB_66_15",
+   "output": "B. 원에 공녀로 끌려가는 여인",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Economics/14",
+   "output": "B. (차변) 보험료 300,00",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Marketing/113",
+   "output": "D. 상담 후 고객만족도",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "full",
+   "uid": "click/PSE_history_22_8",
+   "output": "C. 무오사화",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Maritime-Engineering/360",
+   "output": "C",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "full",
+   "uid": "click/KIIP_society_281",
+   "output": "C. 이사를 도와줄 사람을 찾기 어려움",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Education/83",
+   "output": "A.",
+   "generated": 0,
+   "letter_prob": 0
+  },
+  {
+   "condition": "full",
+   "uid": "click/PSE_history_21_12",
+   "output": "B.",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Nondestructive-Testing/181",
+   "output": "D. 3개월에 1회",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "full",
+   "uid": "click/Kedu_14_13",
+   "output": "D. 얻는 → [언는]",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "full",
+   "uid": "click/TK_2022_26",
+   "output": "A",
+   "generated": 0,
+   "letter_prob": 0
+  },
+  {
+   "condition": "full",
+   "uid": "click/PSE_history_20_2",
+   "output": "C. 이의방을 제거하고 권력을 장악하였다.",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Geomatics/974",
+   "output": "A",
+   "generated": 0,
+   "letter_prob": 0
+  },
+  {
+   "condition": "full",
+   "uid": "click/PSAT_23_7",
+   "output": "A",
+   "generated": 0,
+   "letter_prob": 0
+  },
+  {
+   "condition": "full",
+   "uid": "click/PSE_history_21_11",
+   "output": "C",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "full",
+   "uid": "click/PSAT_20_14",
+   "output": "B",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Maritime-Engineering/319",
+   "output": "D. 상하동요(heaving & dipping)",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "full",
+   "uid": "click/KIIP_economy_23",
+   "output": "C. 2009년",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Criminal-Law/131",
+   "output": "B",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "full",
+   "uid": "click/PSAT_22_2",
+   "output": "C",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "full",
+   "uid": "click/PSE_korean_5",
+   "output": "C. 비유",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Railway-and-Automotive-Engineering/82",
+   "output": "이 문제는 유체역학에서의 엔탈피 변환 공",
+   "generated": null,
+   "letter_prob": 2
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Math/14",
+   "output": "이 문제는 복잡한 방정식과 부등식을 다",
+   "generated": null,
+   "letter_prob": 3
+  },
+  {
+   "condition": "full",
+   "uid": "click/PSAT_18_13",
+   "output": "D",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Interior-Architecture-and-Design/652",
+   "output": "D. Ly/Lx ≧ 2",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Maritime-Engineering/293",
+   "output": "A",
+   "generated": 0,
+   "letter_prob": 0
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Food-Processing/667",
+   "output": "B. 생산 가능곡선",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Gas-Technology-and-Engineering/217",
+   "output": "B",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "full",
+   "uid": "click/Kedu_14_42",
+   "output": "B. 배열적 의미",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Gas-Technology-and-Engineering/446",
+   "output": "B. 3×10^4\n\nReynolds 수는 다음과",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Biology/909",
+   "output": "D. 침투성 살균제",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "full",
+   "uid": "click/KIIP_politics_21",
+   "output": "B. 국회의 권력 증가",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "full",
+   "uid": "click/KIIP_society_76",
+   "output": "C. 외사촌",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Law/237",
+   "output": "A. 위험의 집중",
+   "generated": 0,
+   "letter_prob": 0
+  },
+  {
+   "condition": "full",
+   "uid": "click/KIIP_geography_63",
+   "output": "C. 신라",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Computer-Science/384",
+   "output": "B. 인터럽트 요청 처리",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Criminal-Law/6",
+   "output": "B",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "full",
+   "uid": "click/KIIP_society_167",
+   "output": "A. 적은 비용으로 의료기관 이용 가능",
+   "generated": 0,
+   "letter_prob": 0
+  },
+  {
+   "condition": "full",
+   "uid": "click/Kedu_tradition_20",
+   "output": "A.",
+   "generated": 0,
+   "letter_prob": 0
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Electrical-Engineering/272",
+   "output": "B. 0.28",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "full",
+   "uid": "click/TK_2016_18",
+   "output": "D. 그러면",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Energy-Management/469",
+   "output": "B. 오일펌프 형식",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "full",
+   "uid": "click/TK_2022_31",
+   "output": "D",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Biology/406",
+   "output": "B. 진균(곰팡이)",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "full",
+   "uid": "click/Kedu_16_15",
+   "output": "C. 순행 - 부분",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Construction/673",
+   "output": "D. 35°",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "full",
+   "uid": "click/TK_2018_16",
+   "output": "C. 씨앗을 수집하는",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "full",
+   "uid": "click/KIIP_society_251",
+   "output": "C. 비교적 싸다",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "full",
+   "uid": "click/TK_2022_29",
+   "output": "C. 눈의 피로감을 줄이려는",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "full",
+   "uid": "click/Kedu_15_18",
+   "output": "C",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "full",
+   "uid": "click/PSE_history_20_3",
+   "output": "A.",
+   "generated": 0,
+   "letter_prob": 0
+  },
+  {
+   "condition": "full",
+   "uid": "click/KIIP_society_186",
+   "output": "D. 국·공립 유치원, 사립유치원,",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Real-Estate/150",
+   "output": "C. 8% 증가",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "full",
+   "uid": "click/Kedu_15_52",
+   "output": "B. 황사로 인해 뿌얘졌던 하�",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "full",
+   "uid": "click/PSE_history_16_12",
+   "output": "B. 향회가 수령의 부세자문기구",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Management/740",
+   "output": "D. 낭비적인 작업과정의 제거를 위하여 거래조건",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "full",
+   "uid": "click/PSE_history_16_1",
+   "output": "B. (가) - 고구려 계승의식을 강조",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "full",
+   "uid": "click/Kedu_14_1",
+   "output": "B. 주성분의 생략이 잘 이루어지지 않는다.",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Interior-Architecture-and-Design/512",
+   "output": "C. 20",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "full",
+   "uid": "click/Kedu_16_44",
+   "output": "B. 내일은 꼭 내가 밥을 살게.",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Industrial-Engineer/938",
+   "output": "B. 로딩",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "full",
+   "uid": "click/TK_2017_48",
+   "output": "C. 기술이 완벽하게 개발되지 않은",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "full",
+   "uid": "click/KIIP_society_170",
+   "output": "A. 신고번호",
+   "generated": 0,
+   "letter_prob": 0
+  },
+  {
+   "condition": "full",
+   "uid": "click/PSAT_20_23",
+   "output": "A",
+   "generated": 0,
+   "letter_prob": 0
+  },
+  {
+   "condition": "full",
+   "uid": "click/Kedu_15_1",
+   "output": "B.",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Social-Welfare/160",
+   "output": "A. 평균 : 30, 표준편차 : ",
+   "generated": 0,
+   "letter_prob": 0
+  },
+  {
+   "condition": "full",
+   "uid": "click/PSAT_19_5",
+   "output": "A",
+   "generated": 0,
+   "letter_prob": 0
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Management/358",
+   "output": "A",
+   "generated": 0,
+   "letter_prob": 0
+  },
+  {
+   "condition": "full",
+   "uid": "click/KIIP_economy_46",
+   "output": "B. 한국소비자원",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "full",
+   "uid": "click/KHB_66_28",
+   "output": "C. 임오군란",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "full",
+   "uid": "click/KIIP_society_91",
+   "output": "C. ‘형님’또는 ‘언니’라고 부르거나",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "full",
+   "uid": "click/KIIP_society_13",
+   "output": "C. 태극기에 대한 맹세",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "full",
+   "uid": "click/KIIP_society_255",
+   "output": "A. 수십 가구에서 수백 가구",
+   "generated": 0,
+   "letter_prob": 0
+  },
+  {
+   "condition": "full",
+   "uid": "click/TK_2019_49",
+   "output": "B. 자치경찰제가 주민에게 미칠 긍정",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "full",
+   "uid": "click/CSAT_korean_17_5",
+   "output": "D. [B] : ‘영수’는 ‘민호’의",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Political-Science-and-Sociology/0",
+   "output": "A.",
+   "generated": 0,
+   "letter_prob": 0
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Construction/196",
+   "output": "D.",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Mechanical-Engineering/158",
+   "output": "D. 80㎝",
+   "generated": 3,
+   "letter_prob": 1
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Economics/75",
+   "output": "A. 2,000원 - 영업외비용",
+   "generated": 0,
+   "letter_prob": 0
+  },
+  {
+   "condition": "full",
+   "uid": "click/KHB_66_3",
+   "output": "B. 22담로를 설치하다",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "full",
+   "uid": "click/PSAT_20_12",
+   "output": "C",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "full",
+   "uid": "click/KIIP_popular_9",
+   "output": "A.",
+   "generated": 0,
+   "letter_prob": 0
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Nondestructive-Testing/27",
+   "output": "D. 침투시간은 시험체의 재질, 시험",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "full",
+   "uid": "click/Kedu_16_26",
+   "output": "C",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Gas-Technology-and-Engineering/745",
+   "output": "D. 15.0",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Interior-Architecture-and-Design/474",
+   "output": "D",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Agricultural-Sciences/258",
+   "output": "A. 1 이하",
+   "generated": 0,
+   "letter_prob": 0
+  },
+  {
+   "condition": "full",
+   "uid": "click/KIIP_tradition_74",
+   "output": "A. 하나의 가치관",
+   "generated": 0,
+   "letter_prob": 0
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Machine-Design-and-Manufacturing/490",
+   "output": "B. 2.196",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Economics/8",
+   "output": "D. 차량유지비",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "full",
+   "uid": "click/KIIP_society_276",
+   "output": "A. 이사 온 사실을 주민등록부에 기록",
+   "generated": 0,
+   "letter_prob": 0
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Industrial-Engineer/612",
+   "output": "C. 2.0",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Public-Safety/337",
+   "output": "A. 스테아린산아연",
+   "generated": 0,
+   "letter_prob": 0
+  },
+  {
+   "condition": "full",
+   "uid": "click/CSAT_korean_23_35",
+   "output": "A",
+   "generated": 0,
+   "letter_prob": 0
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Fashion/982",
+   "output": "B",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Taxation/92",
+   "output": "B",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "full",
+   "uid": "click/Kedu_14_18",
+   "output": "D. 한 자리 서술어가 사용되었다.",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "full",
+   "uid": "kmmlu/Civil-Engineering/766",
+   "output": "A",
+   "generated": 0,
+   "letter_prob": 0
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/Kedu_16_23",
+   "output": "A",
+   "generated": 0,
+   "letter_prob": 0
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Railway-and-Automotive-Engineering/31",
+   "output": "C",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/Kedu_tradition_21",
+   "output": "B. 고향의 봄",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/TK_2017_28",
+   "output": "D",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Taxation/38",
+   "output": "C",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Chemical-Engineering/297",
+   "output": "D",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Law/649",
+   "output": "D",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/PSE_history_13_14",
+   "output": "D",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/KHB_66_1",
+   "output": "D",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Refrigerating-Machinery/597",
+   "output": "D",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/TK_2022_10",
+   "output": "B",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/CSAT_korean_15_8",
+   "output": "B",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/Kedu_15_20",
+   "output": "C",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Materials-Engineering/765",
+   "output": "D. 프레스 담금질",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/KIIP_geography_64",
+   "output": "B",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Political-Science-and-Sociology/84",
+   "output": "B",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/PSAT_19_21",
+   "output": "B",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/TK_2017_34",
+   "output": "D",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/TK_2019_13",
+   "output": "D",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Industrial-Engineer/466",
+   "output": "D. 환경 디자인",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/Kedu_history_31",
+   "output": "C",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Electronics-Engineering/144",
+   "output": "D. 고주파 증폭회로",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Management/498",
+   "output": "C",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Electronics-Engineering/931",
+   "output": "D",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/Kedu_tradition_12",
+   "output": "D",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Criminal-Law/112",
+   "output": "A",
+   "generated": 0,
+   "letter_prob": 0
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/KIIP_politics_44",
+   "output": "B",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/PSE_korean_11",
+   "output": "C",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Korean-History/6",
+   "output": "C",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/TK_2019_20",
+   "output": "D",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/PSE_history_18_9",
+   "output": "A",
+   "generated": 0,
+   "letter_prob": 0
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/KIIP_society_275",
+   "output": "A",
+   "generated": 0,
+   "letter_prob": 0
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/CSAT_korean_16_11",
+   "output": "D",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/PSAT_23_2",
+   "output": "C",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/TK_2018_33",
+   "output": "C",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Energy-Management/93",
+   "output": "A",
+   "generated": 0,
+   "letter_prob": 0
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Materials-Engineering/764",
+   "output": "A",
+   "generated": 0,
+   "letter_prob": 0
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Ecology/461",
+   "output": "D. 붉나무빗자루병",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/KIIP_tradition_67",
+   "output": "A. 밀가루",
+   "generated": 0,
+   "letter_prob": 0
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Computer-Science/300",
+   "output": "D",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/TK_2018_19",
+   "output": "B. 이를 간다",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/Kedu_16_48",
+   "output": "D",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/KIIP_society_188",
+   "output": "A",
+   "generated": 0,
+   "letter_prob": 0
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Mechanical-Engineering/949",
+   "output": "C",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/KIIP_geography_45",
+   "output": "D. 제조업",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/KIIP_law_23",
+   "output": "D. 4년",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Ecology/250",
+   "output": "C",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Political-Science-and-Sociology/288",
+   "output": "C",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Telecommunications-and-Wireless-Technology/706",
+   "output": "B",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Math/259",
+   "output": "D",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/KIIP_politics_14",
+   "output": "A",
+   "generated": 0,
+   "letter_prob": 0
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/KIIP_society_10",
+   "output": "B",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/TK_2019_33",
+   "output": "B",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Geomatics/203",
+   "output": "B",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/PSE_history_22_14",
+   "output": "D",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/KIIP_geography_65",
+   "output": "B",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/KIIP_economy_14",
+   "output": "D",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/CSAT_korean_22_1",
+   "output": "C",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/PSE_history_15_17",
+   "output": "C",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Law/905",
+   "output": "A",
+   "generated": 0,
+   "letter_prob": 0
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Civil-Engineering/299",
+   "output": "B. 허시만(A. O. Hirschman)",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/CSAT_korean_16_14",
+   "output": "B",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/TK_2022_11",
+   "output": "C",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/PSE_history_21_17",
+   "output": "C",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/TK_2019_45",
+   "output": "D. ㉣",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Agricultural-Sciences/467",
+   "output": "B",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Criminal-Law/154",
+   "output": "C",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/KIIP_tradition_25",
+   "output": "A. 중국",
+   "generated": 0,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/Kedu_16_6#2",
+   "output": "A",
+   "generated": 0,
+   "letter_prob": 0
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Real-Estate/93",
+   "output": "A",
+   "generated": 0,
+   "letter_prob": 0
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/Kedu_Society_12",
+   "output": "B",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/Kedu_14_56",
+   "output": "C. 왕십리: Wangsimni",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/CSAT_korean_16_3",
+   "output": "D",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/KIIP_society_123",
+   "output": "B. 무선통신사",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/KIIP_politics_73",
+   "output": "B. 중국",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Accounting/48",
+   "output": "C",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/KIIP_politics_18",
+   "output": "B",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/KHB_66_32",
+   "output": "C",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/Kedu_15_12",
+   "output": "A",
+   "generated": 0,
+   "letter_prob": 0
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/CSAT_korean_22_10",
+   "output": "A",
+   "generated": 0,
+   "letter_prob": 0
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Nondestructive-Testing/324",
+   "output": "A",
+   "generated": 0,
+   "letter_prob": 0
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Interior-Architecture-and-Design/570",
+   "output": "D",
+   "generated": 3,
+   "letter_prob": 1
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/KIIP_tradition_69",
+   "output": "D. 유교",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Mechanical-Engineering/44",
+   "output": "D. S",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/KIIP_society_269",
+   "output": "B",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/CSAT_korean_22_22",
+   "output": "A",
+   "generated": 0,
+   "letter_prob": 0
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Civil-Engineering/690",
+   "output": "B",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Gas-Technology-and-Engineering/290",
+   "output": "C",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/TK_2022_5",
+   "output": "D. 노트북",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/PSAT_17_4",
+   "output": "B",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Industrial-Engineer/178",
+   "output": "D",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Interior-Architecture-and-Design/183",
+   "output": "D",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/CSAT_korean_12_11",
+   "output": "D",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Electronics-Engineering/768",
+   "output": "C",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/CSAT_korean_11_12",
+   "output": "D",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/PSE_history_20_13",
+   "output": "D",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/KIIP_economy_35",
+   "output": "C",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Criminal-Law/101",
+   "output": "B",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Construction/704",
+   "output": "A. 0.105 kg/㎝2",
+   "generated": 0,
+   "letter_prob": 0
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Math/183",
+   "output": "A",
+   "generated": 0,
+   "letter_prob": 0
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/TK_2016_11",
+   "output": "A",
+   "generated": 0,
+   "letter_prob": 0
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/Kedu_history_44",
+   "output": "D",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/KHB_66_15",
+   "output": "C",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Economics/14",
+   "output": "A",
+   "generated": 0,
+   "letter_prob": 0
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Marketing/113",
+   "output": "C",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/PSE_history_22_8",
+   "output": "D. 을사사화",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Maritime-Engineering/360",
+   "output": "C",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/KIIP_society_281",
+   "output": "B",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Education/83",
+   "output": "D. 통합성의 원리",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/PSE_history_21_12",
+   "output": "B",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Nondestructive-Testing/181",
+   "output": "D",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/Kedu_14_13",
+   "output": "D. 얻는 → [언는]",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/TK_2022_26",
+   "output": "A",
+   "generated": 0,
+   "letter_prob": 0
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/PSE_history_20_2",
+   "output": "C",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Geomatics/974",
+   "output": "A",
+   "generated": 0,
+   "letter_prob": 0
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/PSAT_23_7",
+   "output": "D",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/PSE_history_21_11",
+   "output": "B",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/PSAT_20_14",
+   "output": "B",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Maritime-Engineering/319",
+   "output": "C",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/KIIP_economy_23",
+   "output": "A",
+   "generated": 0,
+   "letter_prob": 0
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Criminal-Law/131",
+   "output": "D",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/PSAT_22_2",
+   "output": "C",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/PSE_korean_5",
+   "output": "D. 대조",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Railway-and-Automotive-Engineering/82",
+   "output": "D",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Math/14",
+   "output": "C",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/PSAT_18_13",
+   "output": "B",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Interior-Architecture-and-Design/652",
+   "output": "D",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Maritime-Engineering/293",
+   "output": "C",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Food-Processing/667",
+   "output": "B",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Gas-Technology-and-Engineering/217",
+   "output": "D",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/Kedu_14_42",
+   "output": "D. 개념적 의미",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Gas-Technology-and-Engineering/446",
+   "output": "D",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Biology/909",
+   "output": "D. 침투성 살균제",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/KIIP_politics_21",
+   "output": "C",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/KIIP_society_76",
+   "output": "D. 이종사촌",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Law/237",
+   "output": "A",
+   "generated": 0,
+   "letter_prob": 0
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/KIIP_geography_63",
+   "output": "C",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Computer-Science/384",
+   "output": "D. 인터럽트 처리 루틴",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Criminal-Law/6",
+   "output": "B",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/KIIP_society_167",
+   "output": "A",
+   "generated": 0,
+   "letter_prob": 0
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/Kedu_tradition_20",
+   "output": "C",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Electrical-Engineering/272",
+   "output": "D. 0.68",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/TK_2016_18",
+   "output": "C. 차라리",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Energy-Management/469",
+   "output": "A. 버너 호칭",
+   "generated": 0,
+   "letter_prob": 0
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/TK_2022_31",
+   "output": "D",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Biology/406",
+   "output": "B. 진균(곰팡이)",
+   "generated": 1,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/Kedu_16_15",
+   "output": "D",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Construction/673",
+   "output": "D. 35°",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/TK_2018_16",
+   "output": "D",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/KIIP_society_251",
+   "output": "C",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/TK_2022_29",
+   "output": "C",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/Kedu_15_18",
+   "output": "A",
+   "generated": 0,
+   "letter_prob": 0
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/PSE_history_20_3",
+   "output": "A",
+   "generated": 0,
+   "letter_prob": 0
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/KIIP_society_186",
+   "output": "D",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Real-Estate/150",
+   "output": "D",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/Kedu_15_52",
+   "output": "C",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/PSE_history_16_12",
+   "output": "D",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Management/740",
+   "output": "C",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/PSE_history_16_1",
+   "output": "B. (가) - 고구려 계승의식을 강조",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/Kedu_14_1",
+   "output": "D",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Interior-Architecture-and-Design/512",
+   "output": "D",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/Kedu_16_44",
+   "output": "D",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Industrial-Engineer/938",
+   "output": "C. 시물레이션",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/TK_2017_48",
+   "output": "B",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/KIIP_society_170",
+   "output": "D. 신고시간",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/PSAT_20_23",
+   "output": "A",
+   "generated": 0,
+   "letter_prob": 0
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/Kedu_15_1",
+   "output": "A",
+   "generated": 0,
+   "letter_prob": 0
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Social-Welfare/160",
+   "output": "A",
+   "generated": 0,
+   "letter_prob": 0
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/PSAT_19_5",
+   "output": "C",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Management/358",
+   "output": "A",
+   "generated": 0,
+   "letter_prob": 0
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/KIIP_economy_46",
+   "output": "C",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/KHB_66_28",
+   "output": "C",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/KIIP_society_91",
+   "output": "C",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/KIIP_society_13",
+   "output": "D. 헌법의 맹세",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/KIIP_society_255",
+   "output": "D",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/TK_2019_49",
+   "output": "B",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/CSAT_korean_17_5",
+   "output": "D",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Political-Science-and-Sociology/0",
+   "output": "D",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Construction/196",
+   "output": "C",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Mechanical-Engineering/158",
+   "output": "D",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Economics/75",
+   "output": "B",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/KHB_66_3",
+   "output": "B",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/PSAT_20_12",
+   "output": "D",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/KIIP_popular_9",
+   "output": "A",
+   "generated": 0,
+   "letter_prob": 0
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Nondestructive-Testing/27",
+   "output": "D",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/Kedu_16_26",
+   "output": "A",
+   "generated": 0,
+   "letter_prob": 0
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Gas-Technology-and-Engineering/745",
+   "output": "C. 10.0",
+   "generated": 2,
+   "letter_prob": 2
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Interior-Architecture-and-Design/474",
+   "output": "D",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Agricultural-Sciences/258",
+   "output": "D",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/KIIP_tradition_74",
+   "output": "B",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Machine-Design-and-Manufacturing/490",
+   "output": "A",
+   "generated": 0,
+   "letter_prob": 0
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Economics/8",
+   "output": "D. 차량유지비",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/KIIP_society_276",
+   "output": "A",
+   "generated": 0,
+   "letter_prob": 0
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Industrial-Engineer/612",
+   "output": "A",
+   "generated": 0,
+   "letter_prob": 0
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Public-Safety/337",
+   "output": "A",
+   "generated": 0,
+   "letter_prob": 0
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/CSAT_korean_23_35",
+   "output": "D",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Fashion/982",
+   "output": "B",
+   "generated": 1,
+   "letter_prob": 1
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Taxation/92",
+   "output": "A",
+   "generated": 0,
+   "letter_prob": 0
+  },
+  {
+   "condition": "choices_only",
+   "uid": "click/Kedu_14_18",
+   "output": "D",
+   "generated": 3,
+   "letter_prob": 3
+  },
+  {
+   "condition": "choices_only",
+   "uid": "kmmlu/Civil-Engineering/766",
+   "output": "D",
+   "generated": 3,
+   "letter_prob": 3
+  }
+ ]
+}

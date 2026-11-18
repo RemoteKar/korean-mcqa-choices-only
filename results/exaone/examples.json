@@ -1,0 +1,324 @@
+[
+ {
+  "group": "KMMLU",
+  "uid": "kmmlu/Taxation/62",
+  "options": [
+   "승인을 받아보세운송하는 외국 물품이 부득이한 사유로 망실되어 지정된 기간 내에 목적지에 도착하지 아니한 경우 즉시 그 관세를 징수한다.",
+   "화물이 국내에 도착된 후 최초로 보세구역에 반입된 날부터 30일이 경과한 물품을 보세운송하려는 자는 세관장의 승인을 받아야 한다.",
+   "보세운송은 관세청장이 정하는 기간 내에 끝내야 하지만, 세관장은 재해나 그 밖의 부득이한 사유로 필요하다고 인정될 때에는 그 기간을 연장할 수 있다.",
+   "수출신고가 수리된 물품은 관세청장이 따로 정하는 것을 제외하고는 보세운송 절차를 생략한다."
+  ],
+  "gold": "A",
+  "model_pick": "B",
+  "model_pref": [
+   0.02,
+   0.494,
+   0.435,
+   0.051
+  ],
+  "longest": "C",
+  "correct": false
+ },
+ {
+  "group": "KMMLU",
+  "uid": "kmmlu/Gas-Technology-and-Engineering/491",
+  "options": [
+   "유리제 온도계",
+   "바이메탈 온도계",
+   "압력식 온도계",
+   "전기저항식 온도계"
+  ],
+  "gold": "B",
+  "model_pick": "D",
+  "model_pref": [
+   0.161,
+   0.211,
+   0.043,
+   0.585
+  ],
+  "longest": "D",
+  "correct": false
+ },
+ {
+  "group": "KMMLU",
+  "uid": "kmmlu/Public-Safety/964",
+  "options": [
+   "나트륨 - 수소",
+   "탄화칼슘 - 포스핀",
+   "칼륨 - 수소",
+   "인화석회 - 인화수소"
+  ],
+  "gold": "B",
+  "model_pick": "C",
+  "model_pref": [
+   0.276,
+   0.175,
+   0.303,
+   0.245
+  ],
+  "longest": "D",
+  "correct": false
+ },
+ {
+  "group": "KMMLU",
+  "uid": "kmmlu/Health/23",
+  "options": [
+   "관찰법 : 직무수행자가 매일 자신의 직무를 관찰하여 기록한다.",
+   "면접법 : 직무수행자에게 설문지를 배포하여 직무요건을 조사한다.",
+   "중요 사건법 : 직무수행자가 매일 작업일지에 직무 내용을 작성한다.",
+   "작업 표본방법 : 직무분석자가 전체 직무활동 중 일부 작업을 표본 선정하여 관찰한다."
+  ],
+  "gold": "D",
+  "model_pick": "D",
+  "model_pref": [
+   0.197,
+   0.012,
+   0.125,
+   0.667
+  ],
+  "longest": "D",
+  "correct": true
+ },
+ {
+  "group": "CLIcK exam",
+  "uid": "click/KHB_66_42",
+  "options": [
+   "농지 개혁법이 제정되었다.",
+   "경부 고속 도로를 준공하였다.",
+   "금융 실명제를 전면 실시하였다.",
+   "경제 협력 개발 기구(OECD)에 가입하였다."
+  ],
+  "gold": "B",
+  "model_pick": "B",
+  "model_pref": [
+   0.113,
+   0.503,
+   0.081,
+   0.303
+  ],
+  "longest": "D",
+  "correct": true
+ },
+ {
+  "group": "CLIcK exam",
+  "uid": "click/Kedu_Society_22",
+  "options": [
+   "1882년에 태극기를 제작하여 사용하였다.",
+   "태극은 음양의 조화를 나타낸다.",
+   "4괘는 하늘과 땅, 물과 불을 의미한다.",
+   "4괘의 선(線)은 각각 양( )과 음( )을 나타낸다."
+  ],
+  "gold": "D",
+  "model_pick": "B",
+  "model_pref": [
+   0.006,
+   0.426,
+   0.159,
+   0.408
+  ],
+  "longest": "D",
+  "correct": false
+ },
+ {
+  "group": "CLIcK exam",
+  "uid": "click/TK_2016_24",
+  "options": [
+   "한류 배우는 떨어진 인기로 해외 광고에 출연할 기회가 줄어들었다.",
+   "한류 배우가 인기를 끌기 위해서는 해외 광고에 많이 출연해야 한다.",
+   "한류 배우는 인기에 상관없이 해외에서 광고 출연 요청을 받고 있다.",
+   "한류 배우가 큰 인기를 얻으면서 해외 광고 출연 요청이 잇따르고 있다."
+  ],
+  "gold": "D",
+  "model_pick": "D",
+  "model_pref": [
+   0.019,
+   0.008,
+   0.164,
+   0.809
+  ],
+  "longest": "D",
+  "correct": true
+ },
+ {
+  "group": "CLIcK exam",
+  "uid": "click/CSAT_korean_22_2",
+  "options": [
+   "읽을 책을 선택하기 전에 해결하려는 문제가 무엇인지를 명확하게 인식해야겠군.",
+   "서로 다른 관점을 비교.대조하면서 검토함으로써 편협한 시각에서 벗어나 문제를 폭넓게 보아야겠군.",
+   "문제의 해결을 위해 서로 다른 관점을 비판적으로 통합하여 문제에 대한 생각을 새롭게 구성할 수 있어야겠군.",
+   "정보를 이해하는 수준을 넘어, 각 관점의 타당성을 검토하고 평가 내용을 통합함으로써 문제를 깊이 이해해야겠군.",
+   "문제에 대한 여러 관점을 다각도로 검토하고, 비판적 판단을 유보함으로써 자신의 관점이 지닌 타당성을 견고히 해야겠군."
+  ],
+  "gold": "E",
+  "model_pick": "C",
+  "model_pref": [
+   0.022,
+   0.2,
+   0.445,
+   0.327,
+   0.007
+  ],
+  "longest": "E",
+  "correct": false
+ },
+ {
+  "group": "CLIcK textbook",
+  "uid": "click/KIIP_society_110",
+  "options": [
+   "서울, 수도권, 부산, 대구, 광주, 대전",
+   "서울, 부산, 대구, 광주",
+   "서울, 수도권, 부산, 대구",
+   "서울, 수도권, 부산, 대구, 대전"
+  ],
+  "gold": "A",
+  "model_pick": "A",
+  "model_pref": [
+   0.454,
+   0.007,
+   0.098,
+   0.441
+  ],
+  "longest": "A",
+  "correct": true
+ },
+ {
+  "group": "CLIcK textbook",
+  "uid": "click/KIIP_society_6",
+  "options": [
+   "조화로운 우주",
+   "평화와 화합",
+   "자연의 조화",
+   "밝음과 순수"
+  ],
+  "gold": "A",
+  "model_pick": "A",
+  "model_pref": [
+   0.405,
+   0.239,
+   0.288,
+   0.067
+  ],
+  "longest": "A",
+  "correct": true
+ },
+ {
+  "group": "CLIcK textbook",
+  "uid": "click/KIIP_society_184",
+  "options": [
+   "어린이집",
+   "초등학교",
+   "중학교",
+   "고등학교"
+  ],
+  "gold": "A",
+  "model_pick": "D",
+  "model_pref": [
+   0.033,
+   0.265,
+   0.29,
+   0.411
+  ],
+  "longest": "A",
+  "correct": false
+ },
+ {
+  "group": "CLIcK textbook",
+  "uid": "click/KIIP_society_62",
+  "options": [
+   "어멈아",
+   "(새)아가",
+   "며느리",
+   "아들의 아내"
+  ],
+  "gold": "B",
+  "model_pick": "D",
+  "model_pref": [
+   0.032,
+   0.277,
+   0.314,
+   0.377
+  ],
+  "longest": "D",
+  "correct": false
+ },
+ {
+  "group": "Global-MMLU ko",
+  "uid": "gmmlu_ko/professional_psychology/test/485",
+  "options": [
+   "Beck의 인지 행동 치료",
+   "Adler의 개인 심리학",
+   "Perls의 게슈탈트 치료",
+   "Mahler의 대상 관계 이론"
+  ],
+  "gold": "B",
+  "model_pick": "A",
+  "model_pref": [
+   0.52,
+   0.168,
+   0.237,
+   0.075
+  ],
+  "longest": "D",
+  "correct": false
+ },
+ {
+  "group": "Global-MMLU ko",
+  "uid": "gmmlu_ko/college_computer_science/test/96",
+  "options": [
+   "인스턴스 링크 하나, 그 다음 0개 이상의 서브클래스 링크",
+   "인스턴스 링크 하나 이상, 그 다음 하나 이상의 서브클래스 링크",
+   "인스턴스 링크 하나 이상",
+   "서브 클래스 링크 하나, 그 다음 하나 이상의 인스턴스 링크"
+  ],
+  "gold": "A",
+  "model_pick": "B",
+  "model_pref": [
+   0.156,
+   0.619,
+   0.182,
+   0.043
+  ],
+  "longest": "B",
+  "correct": false
+ },
+ {
+  "group": "Global-MMLU ko",
+  "uid": "gmmlu_ko/college_mathematics/test/8",
+  "options": [
+   "없음",
+   "I만",
+   "II만",
+   "III만"
+  ],
+  "gold": "C",
+  "model_pick": "A",
+  "model_pref": [
+   0.621,
+   0.138,
+   0.082,
+   0.158
+  ],
+  "longest": "D",
+  "correct": false
+ },
+ {
+  "group": "Global-MMLU ko",
+  "uid": "gmmlu_ko/college_chemistry/test/56",
+  "options": [
+   "LUMO – HOMO 갭이 작고 λ가 양의 값일 때 크고 양의 값인 g 이동이 관찰된다.",
+   "SOMO와 최저 지대 여기 상태 간 에너지 차이가 크면 g의 편차가 크다.",
+   "λ가 크고 SOMO와 최저 지대 여기 상태 간 에너지 차이가 작으면 ge와 g의 편차가 클 것으로 예상된다.",
+   "λ가 작고 양의 값이면 ge와 g의 편차가 작을 것으로 예상된다."
+  ],
+  "gold": "C",
+  "model_pick": "B",
+  "model_pref": [
+   0.199,
+   0.311,
+   0.302,
+   0.188
+  ],
+  "longest": "C",
+  "correct": false
+ }
+]
